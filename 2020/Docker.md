@@ -223,7 +223,34 @@ a090697502b8: Layer already exists
 v1: digest: sha256:8e49afff6228614a01331706243646fccd616a30d2d7818950b5f1ed7fc91d2d size: 3456
 ```
 
-Once that is all done, you can check [Docker Hub](https://hub.docker.com/repositories) to make sure that all changes have gone through.
+Once that is all done, you can check [Docker Hub](https://hub.docker.com/repositories) to make sure that all changes have gone through. To test your evaluations, OSRF provides [this repository](https://github.com/osrf/vrx-docker) with how they run the simulation for teams. Make sure to check their branches to see if they have anything for the ongoing competition as the master branch is for VRX.
+
+## Troubleshooting
+#### vorc-network issue
+If you receive the following error message, it may be due to the use of a previous competitions automated evaluation. In my case, I had an issue with the connecting to the `vorc-network` since I currently had the `vrx-network`.
+```
+docker: Error response from daemon: network vorc-network not found.
+ERRO[0000] error waiting for container: context canceled
+```
+To fix this, double check if you have `vrx-network`
+```
+docker network ls
+```
+Once you confirm that it is the issue run the following command to remove
+```
+docker network rm vrx-network
+```
+
+#### Unsure if your `ros_entrypoint.sh` script is running
+If you are unsure if your `ros_entrypoint.sh` script is running, you can use the following to check
+```
+docker ps -a
+```
+This allows you to check your containers and information. The container holding you workspace should have `/ros_entrypoint.sh` under the `Command` column. Another tip is to have your script echo a string of text in your terminal. You can add the following to `ros_entrypoint.sh` in your container
+```
+echo -e "Some text"
+```
+When running the container, you should be able to see "Some text" appear in your terminal.
 
 ## Helpful Guides
 [Docker Documentation](https://docs.docker.com/)
