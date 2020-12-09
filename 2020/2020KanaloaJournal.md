@@ -271,6 +271,15 @@ Team Kanaloa VIP
 + Created [Docker documentation] (https://github.com/kvndngyn/KanaloaWork/blob/main/2020/Docker.md)
 + Added [`kanaloa_vrx` workspace](https://github.com/kvndngyn/KanaloaWork/blob/main/2020/kanaloa_vrx)
 
+09 December 2020
++ Mabel Zhang from VORC emailed back with help
+    + Seems that since I ran the VRX Automated Evaluations, I was having the issue on my machine
+    + Proposed solution to run `docker network ls` to see if vrx-network is running
+    + If vrx-server exist, run `docker network rm vrx-network`
+    + Hopefully this allows the `vorc-network` to be made
++ Need to update scripts in docker container back to VORC and remove any lines related to VRX
+    + May need to refactor current `kanaloa_vrx` workspace for VORC
+
  
 
 
