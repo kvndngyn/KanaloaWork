@@ -164,7 +164,7 @@ if __name__ == '__main__':
 		rospy.spin()
 ```
 
-It is important that somewhere in this code that we have a `rospy.Subscriber()` for `/vorc/task/info` as this is used to find out the name of the trial currently being ran. Be sure that your entrypoint scripts are sourcing properly or else you will get an `invalid syntax` for `from vrx_gazebo.msg import Task`. Currently this code is calling the function `assign()` which and passes the data into it. `assign()` then access `data.name` and assigns it to `task_name` which is used to decide the task being done to decide which code to run. However, during the simulation, the data is constantly being repeated and we do not want to constantly run our code from the beginning. To avoid this issue, we assign `current_task` so tht we can created a nested `if` statement. this makes sure that we are only running code if the task was not yet being executed. The rest of the code can be found at [KanaloaWork/2020/kanaloa_vrx](https://github.com/kvndngyn/KanaloaWork/2020/kanaloa_vrx).
+It is important that somewhere in this code that we have a `rospy.Subscriber()` for `/vorc/task/info` as this is used to find out the name of the trial currently being ran. Be sure that your entrypoint scripts are sourcing properly or else you will get an `invalid syntax` for `from vrx_gazebo.msg import Task`. Currently this code is calling the function `assign()` which and passes the data into it. `assign()` then access `data.name` and assigns it to `task_name` which is used to decide the task being done to decide which code to run. However, during the simulation, the data is constantly being repeated and we do not want to constantly run our code from the beginning. To avoid this issue, we assign `current_task` so tht we can created a nested `if` statement. this makes sure that we are only running code if the task was not yet being executed. The rest of the code can be found at [KanaloaWork/2020/kanaloa_vrx](https://github.com/kvndngyn/KanaloaWork/tree/main/2020/kanaloa_vrx).
 
 ## Commit and Push
 Now that your workspace is done being set up, you will want to commit your work and push the container as an image to your repository. If you have not yet created a repository, it should be created when making the push. First make sure you login to your docker account by doing
@@ -224,6 +224,14 @@ v1: digest: sha256:8e49afff6228614a01331706243646fccd616a30d2d7818950b5f1ed7fc91
 ```
 
 Once that is all done, you can check [Docker Hub](https://hub.docker.com/repositories) to make sure that all changes have gone through.
+
+## Helpful Guides
+[Docker Documentation](https://docs.docker.com/)
+
+[VORC Automated Evalutations](https://github.com/osrf/vrx-docker/tree/vorc)
+
+[OSRF's Tutorial](https://github.com/osrf/vorc/wiki/creating_docker_image)
+
 
 
 
