@@ -166,6 +166,66 @@ if __name__ == '__main__':
 
 It is important that somewhere in this code that we have a `rospy.Subscriber()` for `/vorc/task/info` as this is used to find out the name of the trial currently being ran. Be sure that your entrypoint scripts are sourcing properly or else you will get an `invalid syntax` for `from vrx_gazebo.msg import Task`. Currently this code is calling the function `assign()` which and passes the data into it. `assign()` then access `data.name` and assigns it to `task_name` which is used to decide the task being done to decide which code to run. However, during the simulation, the data is constantly being repeated and we do not want to constantly run our code from the beginning. To avoid this issue, we assign `current_task` so tht we can created a nested `if` statement. this makes sure that we are only running code if the task was not yet being executed. The rest of the code can be found at [KanaloaWork/2020/kanaloa_vrx](https://github.com/kvndngyn/KanaloaWork/2020/kanaloa_vrx).
 
+## Commit and Push
+Now that your workspace is done being set up, you will want to commit your work and push the container as an image to your repository. If you have not yet created a repository, it should be created when making the push. First make sure you login to your docker account by doing
+```
+docker login
+```
+
+#### Commit
+To commit your changes you will want to do
+```
+docker commit -m "Your message here" <container> <docker username>/<repository name>:<tag>
+```
++ `-m "Your message here"` is optional to add
++ `<container>` can either be the container's name or ID 
++ `<repository name>` is the name of your docker repository
++ `<tag>` will is used to create another instance of your image
+	+ if this is ommited, then it will default to the `latest` tag
++ Here is an example of what I would do
+```
+docker commit my_container kvnng/kanaloa-vorc:v1
+```
+You should get a random string of characters similar to
+```
+sha256:3a4c068027d428f33655d45da440d3ebc558816e2a61091aba88af41fee92610
+```
+#### Push 
+After commiting, you will not want to push the changes so that is is accessible online. To do so
+```
+docker push <docker username>/<repository name>:<tag>
+```
++ `<repository name>` is the name of your docker repository
++ `<tag>` will is used to create another instance of your image
+	+ if this is ommited, then it will default to the `latest` tag
++ Here is an example that I would do
+```
+docker push kvnng/kanaloa-vorc:v1
+```
+You should get a similar message to this
+```
+The push refers to repository [docker.io/kvnng/kanaloa-vorc]
+40b56e552a35: Layer already exists 
+ac199f5fc8c0: Layer already exists 
+7c0b678c2e8a: Layer already exists 
+28881e12e672: Layer already exists 
+86f67e37a47a: Layer already exists 
+c82a09854d2b: Layer already exists 
+394548e0fff1: Layer already exists 
+0647933524d9: Layer already exists 
+fc279bfb4009: Layer already exists 
+f020c1620d91: Layer already exists 
+6663ec90ed5e: Layer already exists 
+19331eff40f0: Layer already exists 
+100ef12ce3a4: Layer already exists 
+97e6b67a30f1: Layer already exists 
+a090697502b8: Layer already exists 
+v1: digest: sha256:8e49afff6228614a01331706243646fccd616a30d2d7818950b5f1ed7fc91d2d size: 3456
+```
+
+Once that is all done, you can check [Docker Hub](https://hub.docker.com/repositories) to make sure that all changes have gone through.
+
+
 
 
 
