@@ -46,6 +46,14 @@ Push the changes
 ```
 docker push <docker username>/<repository>:<tag (default: latest)>
 ```
+If you want to run multiple sessions of the same container, in a new terminal do
+```
+docker exec -it <container name> bash
+```
+If you want to override the entrypoint script and get back into a Bash session do
+```
+docker run -it --name <container name> --entrypoint bash <docker username>/<repository>:<tag>
+```
 
 ## ROS and Docker
 #### Initial Setup
