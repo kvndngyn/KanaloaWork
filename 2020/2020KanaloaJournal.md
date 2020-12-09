@@ -268,6 +268,8 @@ Team Kanaloa VIP
     + We are planning to get a submission completed by this date
     + I am busy with classes Thursday
     + Friday will only be for working out kinks in the submission
++ Created [Docker documentation] (https://github.com/kvndngyn/KanaloaWork/blob/main/2020/Docker.md)
++ Added [`kanaloa_vrx` workspace](https://github.com/kvndngyn/KanaloaWork/blob/main/2020/kanaloa_vrx)
 
  
 
