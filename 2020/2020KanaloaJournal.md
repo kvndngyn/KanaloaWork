@@ -277,6 +277,7 @@ Team Kanaloa VIP
     + Proposed solution to run `docker network ls` to see if vrx-network is running
     + If vrx-server exist, run `docker network rm vrx-network`
     + Hopefully this allows the `vorc-network` to be made
+    + Updated Docker documentation with this information
 + Need to update scripts in docker container back to VORC and remove any lines related to VRX
     + May need to refactor current `kanaloa_vrx` workspace for VORC
 
