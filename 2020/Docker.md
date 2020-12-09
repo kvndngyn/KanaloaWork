@@ -82,8 +82,8 @@ set -e
 
 # setup ros environment
 source "/opt/ros/melodic/setup.bash"
-source "/home/developer/vorc_ws/install/setup.bash"
-source "/home/developer/kanaloa_vrx/devel/setup.bash"
+source "/vorc_ws/install/setup.bash"
+source "/kanaloa_vrx/devel/setup.bash"
 
 echo "Doing Kanaloa Things..."            
 
