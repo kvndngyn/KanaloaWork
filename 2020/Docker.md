@@ -87,8 +87,6 @@ echo "Doing Kanaloa Things..."
 
 /run_my_system.bash
 echo "We Did it, that's it!"
-
-exit(0)
 ```
 + Note that you want to only be sourcing one path. You package much be within the same parent folder as your `setup.bash`. If you try to source multiple enviornments in your entrypoint script, you will only be sourcing the first line and the others will be ignored.
 
