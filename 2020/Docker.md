@@ -108,7 +108,7 @@ else
 fi
 
 # Enter scripts or launch files to call below
-python /kanaloa_vrx/src/kanaloa_pkg/scripts/task.py
+python /kanaloa_vorc/src/kanaloa_pkg/scripts/task.py
 ```
 For this example we will be using Kanaloa's `task.py` which will be shown later in the documentation.
 
@@ -172,7 +172,7 @@ if __name__ == '__main__':
 		rospy.spin()
 ```
 
-It is important that somewhere in this code that we have a `rospy.Subscriber()` for `/vorc/task/info` as this is used to find out the name of the trial currently being ran. Be sure that your entrypoint scripts are sourcing properly or else you will get an `invalid syntax` for `from vrx_gazebo.msg import Task`. Currently this code is calling the function `assign()` which and passes the data into it. `assign()` then access `data.name` and assigns it to `task_name` which is used to decide the task being done to decide which code to run. However, during the simulation, the data is constantly being repeated and we do not want to constantly run our code from the beginning. To avoid this issue, we assign `current_task` so tht we can created a nested `if` statement. this makes sure that we are only running code if the task was not yet being executed. The rest of the code can be found at [KanaloaWork/2020/kanaloa_vrx](https://github.com/kvndngyn/KanaloaWork/tree/main/2020/kanaloa_vrx).
+It is important that somewhere in this code that we have a `rospy.Subscriber()` for `/vorc/task/info` as this is used to find out the name of the trial currently being ran. Be sure that your entrypoint scripts are sourcing properly or else you will get an `invalid syntax` for `from vrx_gazebo.msg import Task`. Currently this code is calling the function `assign()` which and passes the data into it. `assign()` then access `data.name` and assigns it to `task_name` which is used to decide the task being done to decide which code to run. However, during the simulation, the data is constantly being repeated and we do not want to constantly run our code from the beginning. To avoid this issue, we assign `current_task` so tht we can created a nested `if` statement. this makes sure that we are only running code if the task was not yet being executed. The rest of the code can be found at [KanaloaWork/2020/vorc_submissions/kanaloa_vorc](https://github.com/kvndngyn/KanaloaWork/tree/main/2020/vorc_submissions/kanaloa_vorc).
 
 ## Commit and Push
 Now that your workspace is done being set up, you will want to commit your work and push the container as an image to your repository. If you have not yet created a repository, it should be created when making the push. First make sure you login to your docker account by doing

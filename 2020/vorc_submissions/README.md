@@ -6,7 +6,7 @@ docker pull kvnng/kanaloa-vorc:v1
 
 Follow my [docker documentation](https://github.com/kvndngyn/KanaloaWork/blob/main/2020/Docker.md) for more information regarding `ros_entrypoint.sh` and `run_my_system.bash`
 
-In [kanaloa_vorc/src/kanaloa_pkg/scripts]() contains `task.py` which is as follows
+In [kanaloa_vorc/src/kanaloa_pkg/scripts](https://github.com/kvndngyn/KanaloaWork/tree/main/2020/vorc_submissions/kanaloa_vorc/src/kanaloa_pkg/scripts) contains `task.py` which is as follows
 ```python
 #!/usr/bin/env python
 # license removed for brevity
