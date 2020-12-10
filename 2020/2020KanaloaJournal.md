@@ -280,6 +280,12 @@ Team Kanaloa VIP
     + Updated Docker documentation with this information
 + Need to update scripts in docker container back to VORC and remove any lines related to VRX
     + May need to refactor current `kanaloa_vrx` workspace for VORC
++ Able to run VORC simulation
++ Found out we can only source one path in the startup script.
+    + Refactored workspace for Kanaloa's old VRX code to work with VORC
+    + There was a lot of differences so although docker works, the code does not
++ We can conclude that the docker images works and that we can compete. However, since nothing was developed for VORC, whatever little refactoring we were able to do from old VRX code is all we can submit. CoRa's configurations are completely different from what was developed for VRX.
++ Created documentation for `relabelScript.py`
 
  
 

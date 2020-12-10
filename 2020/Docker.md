@@ -81,9 +81,7 @@ You will want to edit `ros_entrypoint.sh` (the script that will be ran on startu
 set -e
 
 # setup ros environment
-source "/opt/ros/melodic/setup.bash"
-source "/vorc_ws/install/setup.bash"
-source "/kanaloa_vrx/devel/setup.bash"
+source "/kanaloa_vorc/devel/setup.bash"
 
 echo "Doing Kanaloa Things..."            
 
@@ -92,6 +90,8 @@ echo "We Did it, that's it!"
 
 exit(0)
 ```
++ Note that you want to only be sourcing one path. You package much be within the same parent folder as your `setup.bash`. If you try to source multiple enviornments in your entrypoint script, you will only be sourcing the first line and the others will be ignored.
+
 Next we want to create a `run_my_system.bash` script using `vim run_my_system.bash` and enter the following
 ```bash
 #!/bin/bash
@@ -259,6 +259,28 @@ This allows you to check your containers and information. The container holding 
 echo -e "Some text"
 ```
 When running the container, you should be able to see "Some text" appear in your terminal.
+
+#### Docker entrypoint command wrong
+When doing `docker ps -a` you should see all your containers
+```
+CONTAINER ID        IMAGE                                        COMMAND                  CREATED             STATUS                         PORTS               NAMES
+99d43fce1d67        kvnng/vrx-competitor-example:my_image_2      "/ros_entrypoint.sh"     4 minutes ago       Exited (2) 4 minutes ago                           my_container_3
+10c410d57263        kvnng/vrx-competitor-example:my_image        "bash"                   2 hours ago         Up About an hour                                   my_container_2
+```
+In the command column, for the submission to work, it should be running your `/ros_entrypoint.sh`. If it is anything different, then it may be due to running
+```
+docker run -it --name <container name> --entrypoint bash <docker username>/<repository>:<tag>
+```
+What this does is create a new container and overwrites the entrypoint command to be Bash. To fix this, you will want to finish making changes in this Bash session then commit and push the change with
+```
+docker commit <container name> <username>/<repository>:<tag>
+docker push <username>/<repository>:<tag>
+```
+Once you do that, you will want to run that container to have the entrypoint command to be your `/ros_entrypoint.sh` by
+```
+docker run -it --name <container name> --entrypoint /ros_entrypoint.sh <docker username>/<repository>:<tag>
+```
+This will create a new container that uses your `/ros_entrypoint.sh` as your entrypoint command. You can then commit and push this image to your docker repository.
 
 ## Helpful Guides
 [Docker Documentation](https://docs.docker.com/)
