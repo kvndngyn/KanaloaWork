@@ -1,0 +1,8 @@
+prefix=/kanaloa_vorc/build/way_point_wamv/devel
+
+Name: way_point_wamv
+Description: Description of way_point_wamv
+Version: 0.0.0
+Cflags: -I/kanaloa_vorc/build/way_point_wamv/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

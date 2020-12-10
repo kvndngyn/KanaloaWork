@@ -1,0 +1,854 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f437a2f9fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f437a2f9fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f437a3053c8>)
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/kanaloa_vorc'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/kanaloa_pkg) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kanaloa_pkg' with type 'ros.catkin' and name 'way_point_wamv'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/cora_description) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vorc/cora_description' with type 'ros.catkin' and name 'cora_description'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/images) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/tools) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/vorc/vorc_gazebo) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vorc/vorc_gazebo' with type 'ros.catkin' and name 'vorc_gazebo'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/docker/keys) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/images) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/tools) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_gazebo_plugins) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/usv_gazebo_plugins' with type 'ros.catkin' and name 'usv_gazebo_plugins'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/usv_msgs) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/usv_msgs' with type 'ros.catkin' and name 'usv_msgs'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/vrx_gazebo) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/vrx_gazebo' with type 'ros.catkin' and name 'vrx_gazebo'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_description) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/wamv_description' with type 'ros.catkin' and name 'wamv_description'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wamv_gazebo) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/wamv_gazebo' with type 'ros.catkin' and name 'wamv_gazebo'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/wave_gazebo' with type 'ros.catkin' and name 'wave_gazebo'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrx/wave_gazebo_plugins) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrx/wave_gazebo_plugins' with type 'ros.catkin' and name 'wave_gazebo_plugins'
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'usv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/usv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/usv_msgs', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/usv_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'wamv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/wamv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/wamv_description', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/wamv_description', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'wave_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/wave_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/wave_gazebo_plugins', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/wave_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'way_point_wamv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'way_point_wamv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/way_point_wamv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/way_point_wamv', 'merge_install': False, 'path': '/kanaloa_vorc/src/kanaloa_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'usv_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/usv_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/usv_gazebo_plugins', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/usv_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'wave_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/wave_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/wave_gazebo', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/wave_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'wamv_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/wamv_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/wamv_gazebo', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/wamv_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'cora_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'cora_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/cora_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/cora_description', 'merge_install': False, 'path': '/kanaloa_vorc/src/vorc/cora_description', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'vrx_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/vrx_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/vrx_gazebo', 'merge_install': False, 'path': '/kanaloa_vorc/src/vrx/vrx_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'vorc_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'vorc_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/kanaloa_vorc/build/vorc_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/kanaloa_vorc/install/vorc_gazebo', 'merge_install': False, 'path': '/kanaloa_vorc/src/vorc/vorc_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.195s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.198s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/wave_gazebo_plugins' with build type 'catkin'
+[0.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/wave_gazebo_plugins'
+[0.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/usv_msgs' with build type 'catkin'
+[0.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/usv_msgs'
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.209s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/wamv_description' with build type 'catkin'
+[0.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/wamv_description'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/kanaloa_pkg' with build type 'catkin'
+[0.214s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/kanaloa_pkg'
+[0.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins -- -j6 -l6
+[0.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_msgs': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs -- -j6 -l6
+[0.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_description': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description -- -j6 -l6
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/way_point_wamv': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv -- -j6 -l6
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_description' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description -- -j6 -l6
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins -- -j6 -l6
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_description': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description --target tests -- -j6 -l6
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_msgs' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs -- -j6 -l6
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/way_point_wamv' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv -- -j6 -l6
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_msgs': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs --target tests -- -j6 -l6
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_description' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description --target tests -- -j6 -l6
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/way_point_wamv': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv --target tests -- -j6 -l6
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_description': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description --target install -- -j6 -l6
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_msgs' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs --target tests -- -j6 -l6
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target tests -- -j6 -l6
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/way_point_wamv' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv --target tests -- -j6 -l6
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_msgs': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs --target install -- -j6 -l6
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_description' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wamv_description --target install -- -j6 -l6
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/way_point_wamv': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv --target install -- -j6 -l6
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'ros_package_path')
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/ros_package_path.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/ros_package_path.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/ros_package_path.sh'
+[0.708s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/wamv_description/lib/python2.7/dist-packages'
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'pkg_config_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path.sh'
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'pkg_config_path_multiarch')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path_multiarch.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path_multiarch.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config_path_multiarch.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_description)
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description' for CMake config files
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.sh'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description/lib'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description/bin'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description/lib/pkgconfig/wamv_description.pc'
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'pkg_config')
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_description/share/wamv_description/hook/pkg_config.sh'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_description/lib/python3.6/site-packages'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_description/share/wamv_description/package.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/wamv_description/share/wamv_description/package.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_description/share/wamv_description/package.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_description/share/wamv_description/package.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_description/share/wamv_description/package.zsh'
+[0.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/wamv_description/share/colcon-core/packages/wamv_description)
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target tests -- -j6 -l6
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_msgs' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/usv_msgs --target install -- -j6 -l6
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'ros_package_path')
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/ros_package_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/ros_package_path.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/ros_package_path.sh'
+[0.878s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'catkin_pythonpath')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/catkin_pythonpath.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/catkin_pythonpath.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/catkin_pythonpath.sh'
+[0.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'pkg_config_path')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path.sh'
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'pkg_config_path_multiarch')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path_multiarch.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path_multiarch.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config_path_multiarch.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_msgs)
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs' for CMake module files
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs' for CMake config files
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'cmake_prefix_path')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs/lib'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs/bin'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs/lib/pkgconfig/usv_msgs.pc'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'pkg_config')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/hook/pkg_config.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_msgs/lib/python3.6/site-packages'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.bash'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.zsh'
+[0.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/usv_msgs/share/colcon-core/packages/usv_msgs)
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/way_point_wamv' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/way_point_wamv --target install -- -j6 -l6
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target install -- -j6 -l6
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'ros_package_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/ros_package_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/ros_package_path.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/ros_package_path.sh'
+[1.002s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'catkin_pythonpath')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/catkin_pythonpath.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/catkin_pythonpath.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/catkin_pythonpath.sh'
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'pkg_config_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path.sh'
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'pkg_config_path_multiarch')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path_multiarch.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path_multiarch.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config_path_multiarch.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(way_point_wamv)
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv' for CMake module files
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv' for CMake config files
+[1.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'cmake_prefix_path')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/cmake_prefix_path.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/cmake_prefix_path.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv/lib'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv/bin'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv/lib/pkgconfig/way_point_wamv.pc'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('way_point_wamv', 'pkg_config')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/hook/pkg_config.sh'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/way_point_wamv/lib/python3.6/site-packages'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.zsh'
+[1.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/way_point_wamv/share/colcon-core/packages/way_point_wamv)
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target install -- -j6 -l6
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'ros_package_path')
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ros_package_path.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ros_package_path.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ros_package_path.sh'
+[1.212s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/wave_gazebo_plugins/lib/python2.7/dist-packages'
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'pkg_config_path')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path.sh'
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'pkg_config_path_multiarch')
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path_multiarch.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path_multiarch.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config_path_multiarch.sh'
+[1.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wave_gazebo_plugins)
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins' for CMake module files
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins' for CMake config files
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'cmake_prefix_path')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins/lib'
+[1.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'ld_library_path_lib')
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig/wave_gazebo_plugins.pc'
+[1.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'pkg_config')
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/pkg_config.sh'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo_plugins/lib/python3.6/site-packages'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.ps1'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.sh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.bash'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.zsh'
+[1.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/wave_gazebo_plugins/share/colcon-core/packages/wave_gazebo_plugins)
+[1.226s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/usv_gazebo_plugins' with build type 'catkin'
+[1.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/usv_gazebo_plugins'
+[1.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/wave_gazebo' with build type 'catkin'
+[1.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/wave_gazebo'
+[1.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins -- -j6 -l6
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo -- -j6 -l6
+[1.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo -- -j6 -l6
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins -- -j6 -l6
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target tests -- -j6 -l6
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target tests -- -j6 -l6
+[1.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins --target tests -- -j6 -l6
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target install -- -j6 -l6
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target install -- -j6 -l6
+[1.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins --target tests -- -j6 -l6
+[1.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'ros_package_path')
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/ros_package_path.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/ros_package_path.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/ros_package_path.sh'
+[1.624s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/wave_gazebo/lib/python2.7/dist-packages'
+[1.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'pkg_config_path')
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path.sh'
+[1.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'pkg_config_path_multiarch')
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path_multiarch.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path_multiarch.dsv'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config_path_multiarch.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wave_gazebo)
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo' for CMake module files
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo' for CMake config files
+[1.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'cmake_prefix_path')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.sh'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo/lib'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo/bin'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig/wave_gazebo.pc'
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'pkg_config')
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config.dsv'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/hook/pkg_config.sh'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wave_gazebo/lib/python3.6/site-packages'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.sh'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.bash'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.zsh'
+[1.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/wave_gazebo/share/colcon-core/packages/wave_gazebo)
+[1.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins --target install -- -j6 -l6
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/usv_gazebo_plugins --target install -- -j6 -l6
+[1.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'ros_package_path')
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ros_package_path.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ros_package_path.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ros_package_path.sh'
+[1.892s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/usv_gazebo_plugins/lib/python2.7/dist-packages'
+[1.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'pkg_config_path')
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path.ps1'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path.dsv'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path.sh'
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'pkg_config_path_multiarch')
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path_multiarch.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path_multiarch.dsv'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config_path_multiarch.sh'
+[1.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_gazebo_plugins)
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins' for CMake module files
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins' for CMake config files
+[1.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'cmake_prefix_path')
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/cmake_prefix_path.sh'
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins/lib'
+[1.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'ld_library_path_lib')
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/ld_library_path_lib.sh'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig/usv_gazebo_plugins.pc'
+[1.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo_plugins', 'pkg_config')
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/hook/pkg_config.sh'
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/usv_gazebo_plugins/lib/python3.6/site-packages'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.dsv'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.bash'
+[1.903s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.zsh'
+[1.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/usv_gazebo_plugins/share/colcon-core/packages/usv_gazebo_plugins)
+[1.904s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/wamv_gazebo' with build type 'catkin'
+[1.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/wamv_gazebo'
+[1.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo -- -j6 -l6
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo -- -j6 -l6
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo --target tests -- -j6 -l6
+[2.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo --target tests -- -j6 -l6
+[2.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/wamv_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo --target install -- -j6 -l6
+[2.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/wamv_gazebo --target install -- -j6 -l6
+[2.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_gazebo', 'ros_package_path')
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/ros_package_path.ps1'
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/ros_package_path.dsv'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/ros_package_path.sh'
+[2.304s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/wamv_gazebo/lib/python2.7/dist-packages'
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_gazebo', 'pkg_config_path')
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path.sh'
+[2.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_gazebo', 'pkg_config_path_multiarch')
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path_multiarch.ps1'
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path_multiarch.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config_path_multiarch.sh'
+[2.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_gazebo)
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo' for CMake module files
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo' for CMake config files
+[2.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_gazebo', 'cmake_prefix_path')
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/cmake_prefix_path.ps1'
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/cmake_prefix_path.dsv'
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/cmake_prefix_path.sh'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo/lib'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo/bin'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig/wamv_gazebo.pc'
+[2.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_gazebo', 'pkg_config')
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/hook/pkg_config.sh'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/wamv_gazebo/lib/python3.6/site-packages'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.ps1'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.dsv'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.sh'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.bash'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.zsh'
+[2.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/wamv_gazebo/share/colcon-core/packages/wamv_gazebo)
+[2.315s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vrx/vrx_gazebo' with build type 'catkin'
+[2.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vrx/vrx_gazebo'
+[2.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.319s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vorc/cora_description' with build type 'catkin'
+[2.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vorc/cora_description'
+[2.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo -- -j6 -l6
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description -- -j6 -l6
+[2.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description -- -j6 -l6
+[2.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target tests -- -j6 -l6
+[2.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target tests -- -j6 -l6
+[2.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target install -- -j6 -l6
+[3.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target install -- -j6 -l6
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo -- -j6 -l6
+[3.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('cora_description', 'ros_package_path')
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/ros_package_path.ps1'
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/hook/ros_package_path.dsv'
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/ros_package_path.sh'
+[3.076s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/cora_description/lib/python2.7/dist-packages'
+[3.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('cora_description', 'pkg_config_path')
+[3.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path.sh'
+[3.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('cora_description', 'pkg_config_path_multiarch')
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path_multiarch.ps1'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path_multiarch.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config_path_multiarch.sh'
+[3.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cora_description)
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description' for CMake module files
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description' for CMake config files
+[3.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('cora_description', 'cmake_prefix_path')
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/cmake_prefix_path.ps1'
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/hook/cmake_prefix_path.dsv'
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/cmake_prefix_path.sh'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description/lib'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description/bin'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description/lib/pkgconfig/cora_description.pc'
+[3.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('cora_description', 'pkg_config')
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config.dsv'
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/cora_description/share/cora_description/hook/pkg_config.sh'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/cora_description/lib/python3.6/site-packages'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/cora_description/share/cora_description/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/cora_description/share/cora_description/package.dsv'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/cora_description/share/cora_description/package.sh'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/cora_description/share/cora_description/package.bash'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/cora_description/share/cora_description/package.zsh'
+[3.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/cora_description/share/colcon-core/packages/cora_description)
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target tests -- -j6 -l6
+[3.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target tests -- -j6 -l6
+[3.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target install -- -j6 -l6
+[4.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target install -- -j6 -l6
+[4.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'ros_package_path')
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ros_package_path.ps1'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ros_package_path.dsv'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ros_package_path.sh'
+[4.275s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages'
+[4.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'catkin_pythonpath')
+[4.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/catkin_pythonpath.ps1'
+[4.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/catkin_pythonpath.dsv'
+[4.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/catkin_pythonpath.sh'
+[4.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'pkg_config_path')
+[4.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path.ps1'
+[4.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path.dsv'
+[4.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path.sh'
+[4.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'pkg_config_path_multiarch')
+[4.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path_multiarch.ps1'
+[4.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path_multiarch.dsv'
+[4.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config_path_multiarch.sh'
+[4.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrx_gazebo)
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo' for CMake module files
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo' for CMake config files
+[4.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'cmake_prefix_path')
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/cmake_prefix_path.ps1'
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/cmake_prefix_path.dsv'
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/cmake_prefix_path.sh'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo/lib'
+[4.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'ld_library_path_lib')
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ld_library_path_lib.ps1'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ld_library_path_lib.dsv'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/ld_library_path_lib.sh'
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo/bin'
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig/vrx_gazebo.pc'
+[4.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrx_gazebo', 'pkg_config')
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config.ps1'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config.dsv'
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/hook/pkg_config.sh'
+[4.288s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vrx_gazebo/lib/python3.6/site-packages'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.ps1'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.dsv'
+[4.290s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.sh'
+[4.290s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.bash'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.zsh'
+[4.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/vrx_gazebo/share/colcon-core/packages/vrx_gazebo)
+[4.292s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/kanaloa_vorc/src/vorc/vorc_gazebo' with build type 'catkin'
+[4.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/kanaloa_vorc/src/vorc/vorc_gazebo'
+[4.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vorc_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo -- -j6 -l6
+[4.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vorc_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo -- -j6 -l6
+[4.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vorc_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo --target tests -- -j6 -l6
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vorc_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo --target tests -- -j6 -l6
+[4.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/kanaloa_vorc/build/vorc_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo --target install -- -j6 -l6
+[4.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/kanaloa_vorc/build/vorc_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/vrx_gazebo:/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/vrx_gazebo/lib:/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/vrx_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/vrx_gazebo/share:/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vorc_gazebo --target install -- -j6 -l6
+[4.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'ros_package_path')
+[4.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ros_package_path.ps1'
+[4.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ros_package_path.dsv'
+[4.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ros_package_path.sh'
+[4.786s] Level 1:colcon.colcon_ros.task.catkin:checking '/kanaloa_vorc/install/vorc_gazebo/lib/python2.7/dist-packages'
+[4.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'pkg_config_path')
+[4.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path.ps1'
+[4.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path.dsv'
+[4.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path.sh'
+[4.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'pkg_config_path_multiarch')
+[4.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path_multiarch.ps1'
+[4.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path_multiarch.dsv'
+[4.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config_path_multiarch.sh'
+[4.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vorc_gazebo)
+[4.790s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo' for CMake module files
+[4.790s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo' for CMake config files
+[4.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'cmake_prefix_path')
+[4.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/cmake_prefix_path.ps1'
+[4.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/cmake_prefix_path.dsv'
+[4.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/cmake_prefix_path.sh'
+[4.792s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo/lib'
+[4.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'ld_library_path_lib')
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ld_library_path_lib.ps1'
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ld_library_path_lib.dsv'
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/ld_library_path_lib.sh'
+[4.794s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo/bin'
+[4.794s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo/lib/pkgconfig/vorc_gazebo.pc'
+[4.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('vorc_gazebo', 'pkg_config')
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config.ps1'
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config.dsv'
+[4.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/hook/pkg_config.sh'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/kanaloa_vorc/install/vorc_gazebo/lib/python3.6/site-packages'
+[4.795s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.ps1'
+[4.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.dsv'
+[4.797s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.sh'
+[4.797s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.bash'
+[4.797s] INFO:colcon.colcon_core.shell:Creating package script '/kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.zsh'
+[4.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/kanaloa_vorc/install/vorc_gazebo/share/colcon-core/packages/vorc_gazebo)
+[4.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.799s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.807s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.807s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[4.807s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/kanaloa_vorc/install/local_setup.ps1'
+[4.809s] INFO:colcon.colcon_core.shell:Creating prefix util module '/kanaloa_vorc/install/_local_setup_util_ps1.py'
+[4.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/kanaloa_vorc/install/setup.ps1'
+[4.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/kanaloa_vorc/install/local_setup.sh'
+[4.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/kanaloa_vorc/install/_local_setup_util_sh.py'
+[4.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/kanaloa_vorc/install/setup.sh'
+[4.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/kanaloa_vorc/install/local_setup.bash'
+[4.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/kanaloa_vorc/install/setup.bash'
+[4.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/kanaloa_vorc/install/local_setup.zsh'
+[4.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/kanaloa_vorc/install/setup.zsh'

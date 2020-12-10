@@ -1,0 +1,61 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _usv_msgs_generate_messages_check_deps_RangeBearing
+[ 14%] Built target usv_msgs_generate_messages_lisp
+[ 28%] Built target usv_msgs_generate_messages_nodejs
+[ 57%] Built target usv_msgs_generate_messages_py
+[ 71%] Built target usv_msgs_generate_messages_cpp
+[100%] Built target usv_msgs_generate_messages_eus
+[100%] Built target usv_msgs_generate_messages
+Built target tests
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _usv_msgs_generate_messages_check_deps_RangeBearing
+[ 14%] Built target usv_msgs_generate_messages_lisp
+[ 42%] Built target usv_msgs_generate_messages_eus
+[ 57%] Built target usv_msgs_generate_messages_nodejs
+[ 85%] Built target usv_msgs_generate_messages_py
+[100%] Built target usv_msgs_generate_messages_cpp
+[100%] Built target usv_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/msg/RangeBearing.msg
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgs-msg-paths.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/include/usv_msgs
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/include/usv_msgs/RangeBearing.h
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/msg
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/msg/RangeBearing.l
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/manifest.l
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/RangeBearing.lisp
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/_package_RangeBearing.lisp
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/_package.lisp
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/usv_msgs-msg.asd
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/_index.js
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg/_index.js
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg/RangeBearing.js
+Listing /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs ...
+Listing /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs/msg ...
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/__init__.py
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/__init__.pyc
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/__init__.py
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/_RangeBearing.py
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/__init__.pyc
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/_RangeBearing.pyc
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/lib/pkgconfig/usv_msgs.pc
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgs-msg-extras.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.xml

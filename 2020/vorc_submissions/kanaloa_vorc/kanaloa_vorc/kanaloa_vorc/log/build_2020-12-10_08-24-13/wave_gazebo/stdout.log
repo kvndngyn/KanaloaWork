@@ -1,0 +1,46 @@
+[  7%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+[ 38%] Built target wave_gazebo__xacro_auto_generate
+[ 46%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[ 53%] Built target model_erb_generation
+[100%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+Built target tests
+[ 23%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+[ 23%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[ 23%] Built target model_erb_generation
+[ 53%] Built target wave_gazebo__xacro_auto_generate
+[100%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/lib/pkgconfig/wave_gazebo.pc
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.xml
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world

@@ -1,0 +1,44 @@
+[  6%] Built target usv_gazebo_plugins__xacro_auto_generate
+[  6%] Built target usv_msgs_generate_messages_cpp
+[ 18%] Built target usv_gazebo_thrust_plugin
+[ 31%] Built target usv_gazebo_wind_plugin
+[ 50%] Built target usv_gazebo_plugins__xacro_auto_generate_to_devel_space_
+[ 62%] Built target usv_gazebo_dynamics_plugin
+[ 87%] Built target buoyancy_gazebo_plugin
+[ 87%] Built target usv_gazebo_plugins_xacro_generated_to_devel_space_
+[100%] Built target usv_gazebo_acoustic_pinger_plugin
+[ 25%] Built target gtest
+[ 75%] Built target buoyancy_gazebo_plugin
+[100%] Built target buoyancy_plugin_test
+[100%] Built target tests
+[  6%] Built target usv_gazebo_plugins__xacro_auto_generate
+[ 12%] Built target usv_msgs_generate_messages_cpp
+[ 25%] Built target usv_gazebo_plugins__xacro_auto_generate_to_devel_space_
+[ 37%] Built target usv_gazebo_thrust_plugin
+[ 50%] Built target usv_gazebo_dynamics_plugin
+[ 62%] Built target usv_gazebo_wind_plugin
+[ 87%] Built target buoyancy_gazebo_plugin
+[ 87%] Built target usv_gazebo_plugins_xacro_generated_to_devel_space_
+[100%] Built target usv_gazebo_acoustic_pinger_plugin
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig/usv_gazebo_plugins.pc
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.xml
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.so
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/libusv_gazebo_dynamics_plugin.so
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/libusv_gazebo_thrust_plugin.so
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/libusv_gazebo_wind_plugin.so
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/lib/libusv_gazebo_acoustic_pinger_plugin.so
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_thrust_plugin.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/acoustic_pinger_plugin.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_dynamics_plugin.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh
+-- Up-to-date: /kanaloa_vorc/install/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh

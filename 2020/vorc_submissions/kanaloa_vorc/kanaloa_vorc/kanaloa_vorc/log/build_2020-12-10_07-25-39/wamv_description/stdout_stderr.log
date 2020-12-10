@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /kanaloa_vorc/build/wamv_description/devel
+-- Using CMAKE_PREFIX_PATH: /vorc_ws/install/vorc_gazebo;/vorc_ws/install/vrx_gazebo;/vorc_ws/install/wave_gazebo;/vorc_ws/install/cora_description;/vorc_ws/install/wamv_gazebo;/vorc_ws/install/usv_gazebo_plugins;/vorc_ws/install/wave_gazebo_plugins;/vorc_ws/install/wamv_description;/vorc_ws/install/usv_msgs;/opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /kanaloa_vorc/build/wamv_description/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- xacro: determining deps for: urdf/wamv_base.urdf.xacro ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /kanaloa_vorc/build/wamv_description
+[35m[1mScanning dependencies of target wamv_description__xacro_auto_generate_to_devel_space_[0m
+[35m[1mScanning dependencies of target wamv_description__xacro_auto_generate[0m
+[ 25%] [34m[1mxacro: generating urdf/wamv_base.urdf from urdf/wamv_base.urdf.xacro[0m
+[ 50%] [34m[1mxacro: generating urdf/wamv_base.urdf from urdf/wamv_base.urdf.xacro[0m
+[ 75%] [34m[1mcreating dir /kanaloa_vorc/build/wamv_description/devel/share/wamv_description/urdf[0m
+
+
+[ 75%] Built target wamv_description__xacro_auto_generate
+[100%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wamv_description/devel/share/wamv_description/urdf/wamv_base.urdf[0m
+[100%] Built target wamv_description__xacro_auto_generate_to_devel_space_
+[35m[1mScanning dependencies of target wamv_description_xacro_generated_to_devel_space_[0m
+[100%] Built target wamv_description_xacro_generated_to_devel_space_
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 25%] Built target wamv_description__xacro_auto_generate
+[100%] Built target wamv_description__xacro_auto_generate_to_devel_space_
+[100%] Built target wamv_description_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /kanaloa_vorc/install/wamv_description/lib/pkgconfig/wamv_description.pc
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/package.xml
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/model.config
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/mesh
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/model.config
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/mesh
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/thrusters
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+-- Installing: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/battery.xacro

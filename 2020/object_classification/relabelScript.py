@@ -1,4 +1,4 @@
- import os, re
+import os, re
  
 # Create a path to the directory containing your labeled images
 # ex. path = '/Users/name/labelimg/labeled'

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /kanaloa_vorc/build/wamv_gazebo/devel/setup.sh

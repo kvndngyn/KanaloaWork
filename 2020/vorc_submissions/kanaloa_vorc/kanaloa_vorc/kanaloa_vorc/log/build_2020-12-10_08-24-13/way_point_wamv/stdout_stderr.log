@@ -1,0 +1,85 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _way_point_wamv_generate_messages_check_deps_way_point_cmd
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _way_point_wamv_generate_messages_check_deps_add_way_point
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[ 25%] Built target way_point_wamv_generate_messages_eus
+[ 50%] Built target way_point_wamv_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 66%] Built target way_point_wamv_generate_messages_lisp
+[ 83%] Built target way_point_wamv_generate_messages_nodejs
+[100%] Built target way_point_wamv_generate_messages_cpp
+[100%] Built target way_point_wamv_generate_messages
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _way_point_wamv_generate_messages_check_deps_way_point_cmd
+[  0%] Built target _way_point_wamv_generate_messages_check_deps_add_way_point
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[ 25%] Built target way_point_wamv_generate_messages_eus
+[ 50%] Built target way_point_wamv_generate_messages_py
+[ 83%] Built target way_point_wamv_generate_messages_nodejs
+[ 83%] Built target way_point_wamv_generate_messages_lisp
+[100%] Built target way_point_wamv_generate_messages_cpp
+[100%] Built target way_point_wamv_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/srv/add_way_point.srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/srv/way_point_cmd.srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/cmake/way_point_wamv-msg-paths.cmake
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/add_way_pointResponse.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/add_way_point.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/way_point_cmdResponse.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/add_way_pointRequest.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/way_point_cmd.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/include/way_point_wamv/way_point_cmdRequest.h
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/roseus/ros/way_point_wamv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/roseus/ros/way_point_wamv/srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/roseus/ros/way_point_wamv/srv/add_way_point.l
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/roseus/ros/way_point_wamv/srv/way_point_cmd.l
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/roseus/ros/way_point_wamv/manifest.l
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/way_point_cmd.lisp
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/_package_add_way_point.lisp
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/add_way_point.lisp
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/way_point_wamv-srv.asd
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/_package_way_point_cmd.lisp
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/common-lisp/ros/way_point_wamv/srv/_package.lisp
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv/_index.js
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv/srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv/srv/add_way_point.js
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv/srv/_index.js
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/gennodejs/ros/way_point_wamv/srv/way_point_cmd.js
+Listing /kanaloa_vorc/build/way_point_wamv/devel/lib/python2.7/dist-packages/way_point_wamv ...
+Listing /kanaloa_vorc/build/way_point_wamv/devel/lib/python2.7/dist-packages/way_point_wamv/srv ...
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/__init__.py
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/__init__.pyc
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/__init__.py
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/__init__.pyc
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/_way_point_cmd.pyc
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/_add_way_point.pyc
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/_add_way_point.py
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/python2.7/dist-packages/way_point_wamv/srv/_way_point_cmd.py
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/lib/pkgconfig/way_point_wamv.pc
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/cmake/way_point_wamv-msg-extras.cmake
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/cmake/way_point_wamvConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/cmake/way_point_wamvConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/way_point_wamv/share/way_point_wamv/package.xml

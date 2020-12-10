@@ -1,0 +1,34 @@
+[ 25%] Built target wamv_description__xacro_auto_generate
+[100%] Built target wamv_description__xacro_auto_generate_to_devel_space_
+[100%] Built target wamv_description_xacro_generated_to_devel_space_
+Built target tests
+[ 75%] Built target wamv_description__xacro_auto_generate
+[100%] Built target wamv_description__xacro_auto_generate_to_devel_space_
+[100%] Built target wamv_description_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/lib/pkgconfig/wamv_description.pc
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/package.xml
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/model.config
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/mesh
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/model.config
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/mesh
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/thrusters
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/battery.xacro

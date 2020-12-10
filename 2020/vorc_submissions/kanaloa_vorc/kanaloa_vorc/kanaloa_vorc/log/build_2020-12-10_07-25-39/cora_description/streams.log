@@ -1,0 +1,176 @@
+[0.036s] Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /kanaloa_vorc/src/vorc/cora_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/kanaloa_vorc/install/cora_description
+[0.104s] -- The C compiler identification is GNU 7.5.0
+[0.153s] -- The CXX compiler identification is GNU 7.5.0
+[0.158s] -- Check for working C compiler: /usr/bin/cc
+[0.214s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.214s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.277s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.514s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.879s] -- Using CATKIN_DEVEL_PREFIX: /kanaloa_vorc/build/cora_description/devel
+[0.880s] -- Using CMAKE_PREFIX_PATH: /kanaloa_vorc/install/wamv_gazebo;/kanaloa_vorc/install/usv_gazebo_plugins;/kanaloa_vorc/install/wave_gazebo_plugins;/kanaloa_vorc/install/wamv_description;/kanaloa_vorc/install/usv_msgs;/vorc_ws/install/vorc_gazebo;/vorc_ws/install/vrx_gazebo;/vorc_ws/install/wave_gazebo;/vorc_ws/install/cora_description;/vorc_ws/install/wamv_gazebo;/vorc_ws/install/usv_gazebo_plugins;/vorc_ws/install/wave_gazebo_plugins;/vorc_ws/install/wamv_description;/vorc_ws/install/usv_msgs;/opt/ros/melodic
+[0.880s] -- This workspace overlays: /kanaloa_vorc/install/wamv_gazebo;/kanaloa_vorc/install/usv_gazebo_plugins;/kanaloa_vorc/install/wave_gazebo_plugins;/kanaloa_vorc/install/wamv_description;/kanaloa_vorc/install/usv_msgs;/opt/ros/melodic
+[0.892s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.892s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.892s] -- Using Debian Python package layout
+[0.892s] -- Using empy: /usr/bin/empy
+[1.007s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.007s] -- Call enable_testing()
+[1.008s] -- Using CATKIN_TEST_RESULTS_DIR: /kanaloa_vorc/build/cora_description/test_results
+[1.025s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.025s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.036s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.037s] -- Looking for pthread.h
+[1.096s] -- Looking for pthread.h - found
+[1.097s] -- Looking for pthread_create
+[1.154s] -- Looking for pthread_create - not found
+[1.154s] -- Looking for pthread_create in pthreads
+[1.203s] -- Looking for pthread_create in pthreads - not found
+[1.203s] -- Looking for pthread_create in pthread
+[1.258s] -- Looking for pthread_create in pthread - found
+[1.259s] -- Found Threads: TRUE  
+[1.262s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.298s] -- catkin 0.7.29
+[1.298s] -- BUILD_SHARED_LIBS is on
+[1.401s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.402s] -- Checking for module 'bullet>=2.82'
+[1.414s] --   Found bullet, version 2.87
+[1.446s] -- Found Simbody: /usr/include/simbody  
+[1.517s] -- Boost version: 1.65.1
+[1.517s] -- Found the following Boost libraries:
+[1.517s] --   thread
+[1.517s] --   system
+[1.517s] --   filesystem
+[1.517s] --   program_options
+[1.517s] --   regex
+[1.517s] --   iostreams
+[1.517s] --   date_time
+[1.517s] --   chrono
+[1.517s] --   atomic
+[1.529s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[1.549s] -- Boost version: 1.65.1
+[1.550s] -- Looking for OGRE...
+[1.551s] -- OGRE_PREFIX_WATCH changed.
+[1.555s] -- Checking for module 'OGRE'
+[1.567s] --   Found OGRE, version 1.9.0
+[1.606s] -- Found Ogre Ghadamon (1.9.0)
+[1.611s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.652s] -- Looking for OGRE_Paging...
+[1.655s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.656s] -- Looking for OGRE_Terrain...
+[1.658s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.659s] -- Looking for OGRE_Property...
+[1.662s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.662s] -- Looking for OGRE_RTShaderSystem...
+[1.665s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.665s] -- Looking for OGRE_Volume...
+[1.668s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.668s] -- Looking for OGRE_Overlay...
+[1.671s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.760s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[1.767s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.771s] -- Checking for module 'libzmq >= 4'
+[1.784s] --   Found libzmq , version 4.2.5
+[1.823s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.828s] -- Checking for module 'uuid'
+[1.841s] --   Found uuid, version 2.31.1
+[1.873s] -- Found UUID: TRUE  
+[1.882s] -- Checking for module 'tinyxml2'
+[1.894s] --   Found tinyxml2, version 6.0.0
+[1.926s] -- Looking for dlfcn.h - found
+[1.926s] -- Looking for libdl - found
+[1.927s] -- Found DL: TRUE  
+[1.928s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[1.995s] -- Checking for module 'gts'
+[2.008s] --   Found gts, version 0.7.6
+[2.043s] -- Found GTS: TRUE  
+[2.047s] -- Checking for module 'libswscale'
+[2.059s] --   Found libswscale, version 4.8.100
+[2.093s] -- Found SWSCALE: TRUE  
+[2.096s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.108s] --   Found libavdevice , version 57.10.100
+[2.148s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.151s] -- Checking for module 'libavformat'
+[2.165s] --   Found libavformat, version 57.83.100
+[2.203s] -- Found AVFORMAT: TRUE  
+[2.207s] -- Checking for module 'libavcodec'
+[2.220s] --   Found libavcodec, version 57.107.100
+[2.254s] -- Found AVCODEC: TRUE  
+[2.257s] -- Checking for module 'libavutil'
+[2.269s] --   Found libavutil, version 55.78.100
+[2.301s] -- Found AVUTIL: TRUE  
+[2.306s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+[2.312s] -- Checking for module 'jsoncpp'
+[2.325s] --   Found jsoncpp, version 1.7.4
+[2.360s] -- Found JSONCPP: TRUE  
+[2.371s] -- Checking for module 'yaml-0.1'
+[2.384s] --   Found yaml-0.1, version 0.1.7
+[2.415s] -- Found YAML: TRUE  
+[2.418s] -- Checking for module 'libzip'
+[2.431s] --   Found libzip, version 1.1.2
+[2.467s] -- Found ZIP: TRUE  
+[2.467s] -- Gazebo version: 9.16
+[2.569s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.820s] -- xacro: determining deps for: urdf/cora.urdf.xacro ...
+[2.862s] -- Configuring done
+[2.888s] -- Generating done
+[2.897s] -- Build files have been written to: /kanaloa_vorc/build/cora_description
+[2.902s] Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /kanaloa_vorc/src/vorc/cora_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/kanaloa_vorc/install/cora_description
+[2.904s] Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description -- -j6 -l6
+[2.945s] [35m[1mScanning dependencies of target cora_description__xacro_auto_generate_to_devel_space_[0m
+[2.945s] [35m[1mScanning dependencies of target cora_description__xacro_auto_generate[0m
+[2.955s] [ 25%] [34m[1mxacro: generating urdf/cora.urdf from urdf/cora.urdf.xacro[0m
+[2.955s] [ 50%] [34m[1mcreating dir /kanaloa_vorc/build/cora_description/devel/share/cora_description/urdf[0m
+[2.956s] [ 75%] [34m[1mxacro: generating urdf/cora.urdf from urdf/cora.urdf.xacro[0m
+[2.994s] 
+[2.996s] 
+[3.009s] [100%] [34m[1mCopying to devel space: /kanaloa_vorc/build/cora_description/devel/share/cora_description/urdf/cora.urdf[0m
+[3.009s] [100%] Built target cora_description__xacro_auto_generate
+[3.023s] [100%] Built target cora_description__xacro_auto_generate_to_devel_space_
+[3.033s] [35m[1mScanning dependencies of target cora_description_xacro_generated_to_devel_space_[0m
+[3.042s] [100%] Built target cora_description_xacro_generated_to_devel_space_
+[3.052s] Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description -- -j6 -l6
+[3.122s] Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target tests -- -j6 -l6
+[3.174s] [35m[1mScanning dependencies of target tests[0m
+[3.184s] Built target tests
+[3.194s] Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target tests -- -j6 -l6
+[3.249s] Invoking command in '/kanaloa_vorc/build/cora_description': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target install -- -j6 -l6
+[3.297s] [ 75%] Built target cora_description__xacro_auto_generate_to_devel_space_
+[3.300s] [100%] Built target cora_description__xacro_auto_generate
+[3.315s] [100%] Built target cora_description_xacro_generated_to_devel_space_
+[3.333s] [36mInstall the project...[0m
+[3.340s] -- Install configuration: ""
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/lib/pkgconfig/cora_description.pc
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/cmake/cora_descriptionConfig.cmake
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/cmake/cora_descriptionConfig-version.cmake
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/package.xml
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.urdf
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models
+[3.341s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/model.config
+[3.342s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes
+[3.342s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/base_v1.dae
+[3.343s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/propellerR.dae
+[3.344s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/propellerL.dae
+[3.345s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/base.dae
+[3.349s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials
+[3.349s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/scripts
+[3.349s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/scripts/model.material
+[3.349s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures
+[3.349s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Roughness.png
+[3.363s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Metalness.png
+[3.370s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Albedo.png
+[3.391s] -- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf
+[3.391s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_dynamics_plugin.xacro
+[3.391s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_thruster_config.xacro
+[3.391s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.urdf.xacro
+[3.392s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/macros.xacro
+[3.392s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/thrusters.xacro
+[3.392s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.xacro
+[3.392s] -- Installing: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_v1.urdf.xacro
+[3.396s] Invoked command in '/kanaloa_vorc/build/cora_description' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /kanaloa_vorc/build/cora_description --target install -- -j6 -l6

@@ -1,0 +1,52 @@
+[0.012s] Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo -- -j6 -l6
+[0.073s] [  7%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+[0.079s] [ 38%] Built target wave_gazebo__xacro_auto_generate
+[0.082s] [ 46%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[0.089s] [ 53%] Built target model_erb_generation
+[0.119s] [100%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[0.143s] [100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+[0.153s] Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo -- -j6 -l6
+[0.178s] Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target tests -- -j6 -l6
+[0.228s] Built target tests
+[0.239s] Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target tests -- -j6 -l6
+[0.263s] Invoking command in '/kanaloa_vorc/build/wave_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target install -- -j6 -l6
+[0.303s] [ 23%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+[0.304s] [ 23%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[0.304s] [ 23%] Built target model_erb_generation
+[0.304s] [ 53%] Built target wave_gazebo__xacro_auto_generate
+[0.318s] [100%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[0.340s] [100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+[0.355s] [36mInstall the project...[0m
+[0.361s] -- Install configuration: ""
+[0.361s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/lib/pkgconfig/wave_gazebo.pc
+[0.361s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake
+[0.361s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.xml
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs
+[0.362s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world
+[0.363s] -- Up-to-date: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world
+[0.365s] Invoked command in '/kanaloa_vorc/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wave_gazebo_plugins LD_LIBRARY_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig ROS_PACKAGE_PATH=/kanaloa_vorc/install/wave_gazebo_plugins/share /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo --target install -- -j6 -l6

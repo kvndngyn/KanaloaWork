@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /kanaloa_vorc/build/wave_gazebo/devel
+-- Using CMAKE_PREFIX_PATH: /kanaloa_vorc/install/wave_gazebo_plugins;/vorc_ws/install/vorc_gazebo;/vorc_ws/install/vrx_gazebo;/vorc_ws/install/wave_gazebo;/vorc_ws/install/cora_description;/vorc_ws/install/wamv_gazebo;/vorc_ws/install/usv_gazebo_plugins;/vorc_ws/install/wave_gazebo_plugins;/vorc_ws/install/wamv_description;/vorc_ws/install/usv_msgs;/opt/ros/melodic
+-- This workspace overlays: /kanaloa_vorc/install/wave_gazebo_plugins;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /kanaloa_vorc/build/wave_gazebo/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- xacro: determining deps for: worlds/ocean.world.xacro ...
+-- xacro: determining deps for: worlds/ocean_buoys.world.xacro ...
+-- xacro: determining deps for: worlds/ocean_wamv.world.xacro ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /kanaloa_vorc/build/wave_gazebo
+[35m[1mScanning dependencies of target model_erb_generation[0m
+[35m[1mScanning dependencies of target wave_gazebo__xacro_auto_generate_to_devel_space_[0m
+[35m[1mScanning dependencies of target wave_gazebo__xacro_auto_generate[0m
+[ 15%] [34m[1mxacro: generating worlds/ocean.world from worlds/ocean.world.xacro[0m
+[ 15%] Built target model_erb_generation
+[ 23%] [34m[1mcreating dir /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds[0m
+[ 30%] [34m[1mxacro: generating worlds/ocean_buoys.world from worlds/ocean_buoys.world.xacro[0m
+[ 38%] [34m[1mxacro: generating worlds/ocean_wamv.world from worlds/ocean_wamv.world.xacro[0m
+[ 46%] [34m[1mxacro: generating worlds/ocean.world from worlds/ocean.world.xacro[0m
+[ 53%] [34m[1mxacro: generating worlds/ocean_buoys.world from worlds/ocean_buoys.world.xacro[0m
+[ 61%] [34m[1mxacro: generating worlds/ocean_wamv.world from worlds/ocean_wamv.world.xacro[0m
+
+
+
+
+
+[ 69%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[ 76%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+
+[ 84%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_wamv.world[0m
+[ 92%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wave_gazebo__xacro_auto_generate
+[35m[1mScanning dependencies of target wave_gazebo_xacro_generated_to_devel_space_[0m
+[100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 15%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean_buoys.world[0m
+[ 15%] [34m[1mCopying to devel space: /kanaloa_vorc/build/wave_gazebo/devel/share/wave_gazebo/worlds/ocean.world[0m
+[ 46%] Built target wave_gazebo__xacro_auto_generate
+[ 53%] Built target model_erb_generation
+[100%] Built target wave_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wave_gazebo_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo/lib/pkgconfig/wave_gazebo.pc
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/package.xml
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world
+-- Installing: /kanaloa_vorc/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world

@@ -1,0 +1,8 @@
+prefix=/kanaloa_vorc/install/way_point_wamv
+
+Name: way_point_wamv
+Description: Description of way_point_wamv
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /kanaloa_vorc/build/wave_gazebo_plugins/devel/setup.sh

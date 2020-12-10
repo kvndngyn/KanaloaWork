@@ -1,0 +1,1036 @@
+[0.017s] Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo -- -j6 -l6
+[0.088s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.089s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[0.093s] [  1%] [34m[1mAutomatic MOC and UIC for target light_buoy_colors_msgs[0m
+[0.095s] [  9%] Built target vrx_gazebo__xacro_auto_generate
+[0.113s] [ 10%] Built target light_buoy_colors_msgs_autogen
+[0.116s] [ 10%] Built target trajectory_msgs_generate_messages_py
+[0.117s] [ 10%] Built target _vrx_gazebo_generate_messages_check_deps_Task
+[0.127s] [ 10%] Built target _vrx_gazebo_generate_messages_check_deps_Contact
+[0.142s] [ 10%] Built target trajectory_msgs_generate_messages_nodejs
+[0.156s] [ 10%] Built target trajectory_msgs_generate_messages_eus
+[0.157s] [ 10%] Built target trajectory_msgs_generate_messages_lisp
+[0.165s] [ 10%] Built target trajectory_msgs_generate_messages_cpp
+[0.165s] [ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[0.166s] [ 10%] Built target _vrx_gazebo_generate_messages_check_deps_ColorSequence
+[0.174s] [ 10%] Built target geometry_msgs_generate_messages_eus
+[0.180s] [ 10%] Built target std_msgs_generate_messages_py
+[0.182s] [ 10%] Built target uuid_msgs_generate_messages_lisp
+[0.185s] [ 10%] Built target uuid_msgs_generate_messages_cpp
+[0.186s] [ 10%] Built target std_msgs_generate_messages_nodejs
+[0.186s] [ 10%] Built target gazebo_ros_gencfg
+[0.194s] [ 10%] Built target uuid_msgs_generate_messages_nodejs
+[0.200s] [ 10%] Built target roscpp_generate_messages_nodejs
+[0.205s] [ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.210s] [ 10%] Built target std_msgs_generate_messages_eus
+[0.212s] [ 10%] Built target geographic_msgs_generate_messages_lisp
+[0.212s] [ 10%] Built target std_msgs_generate_messages_lisp
+[0.219s] [ 10%] Built target actionlib_generate_messages_cpp
+[0.219s] [ 10%] Built target sensor_msgs_generate_messages_nodejs
+[0.232s] [ 10%] Built target geometry_msgs_generate_messages_nodejs
+[0.235s] [ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[0.236s] [ 10%] Built target geometry_msgs_generate_messages_lisp
+[0.237s] [ 10%] Built target std_srvs_generate_messages_eus
+[0.238s] [ 10%] Built target sensor_msgs_generate_messages_lisp
+[0.243s] [ 10%] Built target roscpp_generate_messages_lisp
+[0.259s] [ 10%] Built target uuid_msgs_generate_messages_eus
+[0.260s] [ 10%] Built target rosgraph_msgs_generate_messages_eus
+[0.260s] [ 10%] Built target gazebo_msgs_generate_messages_nodejs
+[0.264s] [ 10%] Built target gazebo_msgs_generate_messages_lisp
+[0.269s] [ 10%] Built target geographic_msgs_generate_messages_eus
+[0.269s] [ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[0.279s] [ 10%] Built target roscpp_generate_messages_py
+[0.283s] [ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.286s] [ 10%] Built target gazebo_msgs_generate_messages_cpp
+[0.289s] [ 10%] Built target uuid_msgs_generate_messages_py
+[0.290s] [ 10%] Built target geographic_msgs_generate_messages_cpp
+[0.295s] [ 10%] Built target gazebo_msgs_generate_messages_py
+[0.303s] [ 10%] Built target roscpp_generate_messages_cpp
+[0.313s] [ 10%] Built target geographic_msgs_generate_messages_py
+[0.313s] [ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.313s] [ 10%] Built target geometry_msgs_generate_messages_py
+[0.317s] [ 10%] Built target std_srvs_generate_messages_lisp
+[0.324s] [ 10%] Built target std_srvs_generate_messages_nodejs
+[0.328s] [ 10%] Built target std_srvs_generate_messages_cpp
+[0.337s] [ 10%] Built target std_srvs_generate_messages_py
+[0.337s] [ 10%] Built target actionlib_generate_messages_lisp
+[0.341s] [ 10%] Built target geometry_msgs_generate_messages_cpp
+[0.344s] [ 10%] Built target geographic_msgs_generate_messages_nodejs
+[0.345s] [ 10%] Built target actionlib_generate_messages_nodejs
+[0.347s] [ 10%] Built target tf_generate_messages_cpp
+[0.364s] [ 10%] Built target actionlib_msgs_generate_messages_cpp
+[0.365s] [ 10%] Built target tf_generate_messages_eus
+[0.369s] [ 10%] Built target tf_generate_messages_lisp
+[0.370s] [ 10%] Built target tf_generate_messages_nodejs
+[0.370s] [ 10%] Built target tf_generate_messages_py
+[0.372s] [ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.389s] [ 10%] Built target sensor_msgs_generate_messages_eus
+[0.390s] [ 10%] Built target roscpp_generate_messages_eus
+[0.391s] [ 10%] Built target sensor_msgs_generate_messages_cpp
+[0.397s] [ 10%] Built target sensor_msgs_generate_messages_py
+[0.397s] [ 10%] Built target rosgraph_msgs_generate_messages_py
+[0.400s] [ 10%] Built target actionlib_generate_messages_eus
+[0.414s] [ 10%] Built target actionlib_msgs_generate_messages_eus
+[0.415s] [ 10%] Built target actionlib_msgs_generate_messages_lisp
+[0.416s] [ 10%] Built target actionlib_msgs_generate_messages_py
+[0.419s] [ 10%] Built target tf2_msgs_generate_messages_eus
+[0.422s] [ 10%] Built target tf2_msgs_generate_messages_cpp
+[0.422s] [ 10%] Built target actionlib_generate_messages_py
+[0.440s] [ 10%] Built target tf2_msgs_generate_messages_py
+[0.440s] [ 10%] Built target dynamic_reconfigure_generate_messages_py
+[0.440s] [ 10%] Built target tf2_msgs_generate_messages_nodejs
+[0.443s] [ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[0.443s] [ 10%] Built target tf2_msgs_generate_messages_lisp
+[0.450s] [ 10%] Built target dynamic_reconfigure_gencfg
+[0.463s] [ 13%] Built target vrx_gazebo_generate_messages_nodejs
+[0.464s] [ 14%] [34m[1mAutomatic MOC and UIC for target dock_placard_msgs[0m
+[0.464s] [ 18%] Built target vrx_gazebo_generate_messages_py
+[0.469s] [ 21%] Built target vrx_gazebo_generate_messages_lisp
+[0.471s] [ 25%] Built target vrx_gazebo_generate_messages_eus
+[0.475s] [ 28%] Built target dock_base_erb_generation
+[0.486s] [ 30%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/example_course.world[0m
+[0.488s] [ 30%] Built target vrx_gazebo_generate_obstacle_course_buoys
+[0.492s] [ 32%] Built target dock_placard_msgs_autogen
+[0.492s] [ 33%] Built target vrx_gazebo_generate_messages_cpp
+[0.494s] [ 37%] Built target light_buoy_colors_msgs
+[0.499s] [ 38%] [34m[1mAutomatic MOC and UIC for target waypoint_markers[0m
+[0.501s] [ 39%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/navigation_task.world[0m
+[0.501s] [ 40%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/perception_task.world[0m
+[0.513s] [ 40%] [34m[1mAutomatic MOC and UIC for target gui_task_widget[0m
+[0.515s] [ 42%] [34m[1mAutomatic MOC and UIC for target scoring_plugin[0m
+[0.516s] [ 42%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/sandisland.world[0m
+[0.518s] [ 45%] Built target dock_erb_generation
+[0.518s] [ 46%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/dock.world[0m
+[0.526s] [ 46%] Built target waypoint_markers_autogen
+[0.529s] [ 46%] Built target gui_task_widget_autogen
+[0.537s] [ 46%] Built target scoring_plugin_autogen
+[0.538s] [ 48%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/stationkeeping_task.world[0m
+[0.540s] [ 49%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/scan_and_dock.world[0m
+[0.548s] [ 49%] Built target vrx_gazebo_generate_messages
+[0.552s] [ 53%] Built target dock_placard_msgs
+[0.554s] [ 53%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/wayfinding_task.world[0m
+[0.560s] [ 54%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/wind_test.world[0m
+[0.560s] [ 55%] [34m[1mAutomatic MOC and UIC for target light_buoy_plugin[0m
+[0.575s] [ 66%] Built target vrx_gazebo__xacro_auto_generate_to_devel_space_
+[0.585s] [ 66%] Built target light_buoy_plugin_autogen
+[0.593s] [ 69%] Built target gui_task_widget
+[0.594s] [ 73%] Built target waypoint_markers
+[0.595s] [ 75%] Built target scoring_plugin
+[0.597s] [ 75%] Built target vrx_gazebo_xacro_generated_to_devel_space_
+[0.602s] [ 77%] [34m[1mAutomatic MOC and UIC for target placard_plugin[0m
+[0.619s] [ 78%] [34m[1mAutomatic MOC and UIC for target scan_dock_scoring_plugin[0m
+[0.619s] [ 79%] [34m[1mAutomatic MOC and UIC for target perception_scoring_plugin[0m
+[0.626s] [ 81%] [34m[1mAutomatic MOC and UIC for target navigation_scoring_plugin[0m
+[0.626s] [ 81%] [34m[1mAutomatic MOC and UIC for target stationkeeping_scoring_plugin[0m
+[0.629s] [ 84%] Built target light_buoy_plugin
+[0.633s] [ 84%] Built target placard_plugin_autogen
+[0.645s] [ 84%] Built target perception_scoring_plugin_autogen
+[0.645s] [ 84%] Built target navigation_scoring_plugin_autogen
+[0.645s] [ 84%] Built target scan_dock_scoring_plugin_autogen
+[0.648s] [ 84%] Built target stationkeeping_scoring_plugin_autogen
+[0.659s] [ 84%] [34m[1mAutomatic MOC and UIC for target wayfinding_scoring_plugin[0m
+[0.678s] [ 86%] Built target scan_dock_scoring_plugin
+[0.679s] [ 89%] Built target placard_plugin
+[0.681s] [ 91%] Built target perception_scoring_plugin
+[0.684s] [ 93%] Built target navigation_scoring_plugin
+[0.684s] [ 93%] Built target wayfinding_scoring_plugin_autogen
+[0.685s] [ 96%] Built target stationkeeping_scoring_plugin
+[0.719s] [100%] Built target wayfinding_scoring_plugin
+[0.732s] Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo -- -j6 -l6
+[0.874s] Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target tests -- -j6 -l6
+[0.946s] [  0%] [34m[1mAutomatic MOC and UIC for target gtest[0m
+[0.961s] [  0%] Built target gtest_autogen
+[0.977s] [ 50%] Built target gtest
+[0.992s] [ 66%] [34m[1mAutomatic MOC and UIC for target sandisland_test[0m
+[1.006s] [ 66%] Built target sandisland_test_autogen
+[1.028s] [100%] Built target sandisland_test
+[1.044s] [100%] Built target tests
+[1.053s] Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target tests -- -j6 -l6
+[1.153s] Invoking command in '/kanaloa_vorc/build/vrx_gazebo': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target install -- -j6 -l6
+[1.208s] [  3%] [34m[1mAutomatic MOC and UIC for target light_buoy_colors_msgs[0m
+[1.208s] [  9%] Built target vrx_gazebo__xacro_auto_generate
+[1.208s] [  9%] Built target std_msgs_generate_messages_cpp
+[1.223s] [  9%] Built target gazebo_msgs_generate_messages_eus
+[1.232s] [  9%] Built target _vrx_gazebo_generate_messages_check_deps_Task
+[1.234s] [ 10%] Built target light_buoy_colors_msgs_autogen
+[1.239s] [ 10%] Built target _vrx_gazebo_generate_messages_check_deps_Contact
+[1.242s] [ 10%] Built target trajectory_msgs_generate_messages_py
+[1.247s] [ 10%] Built target trajectory_msgs_generate_messages_nodejs
+[1.255s] [ 10%] Built target trajectory_msgs_generate_messages_lisp
+[1.257s] [ 10%] Built target trajectory_msgs_generate_messages_eus
+[1.264s] [ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[1.264s] [ 10%] Built target trajectory_msgs_generate_messages_cpp
+[1.264s] [ 10%] Built target _vrx_gazebo_generate_messages_check_deps_ColorSequence
+[1.267s] [ 10%] Built target geometry_msgs_generate_messages_eus
+[1.274s] [ 10%] Built target uuid_msgs_generate_messages_lisp
+[1.281s] [ 10%] Built target std_msgs_generate_messages_py
+[1.282s] [ 10%] Built target uuid_msgs_generate_messages_cpp
+[1.283s] [ 10%] Built target gazebo_ros_gencfg
+[1.288s] [ 10%] Built target std_msgs_generate_messages_nodejs
+[1.296s] [ 10%] Built target uuid_msgs_generate_messages_nodejs
+[1.298s] [ 10%] Built target roscpp_generate_messages_nodejs
+[1.301s] [ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.301s] [ 10%] Built target geographic_msgs_generate_messages_lisp
+[1.303s] [ 10%] Built target std_msgs_generate_messages_lisp
+[1.312s] [ 10%] Built target std_msgs_generate_messages_eus
+[1.317s] [ 10%] Built target actionlib_generate_messages_cpp
+[1.317s] [ 10%] Built target sensor_msgs_generate_messages_nodejs
+[1.319s] [ 10%] Built target geometry_msgs_generate_messages_lisp
+[1.320s] [ 10%] Built target geometry_msgs_generate_messages_nodejs
+[1.324s] [ 10%] Built target sensor_msgs_generate_messages_lisp
+[1.333s] [ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[1.337s] [ 10%] Built target std_srvs_generate_messages_eus
+[1.341s] [ 10%] Built target gazebo_msgs_generate_messages_lisp
+[1.343s] [ 10%] Built target rosgraph_msgs_generate_messages_eus
+[1.344s] [ 10%] Built target roscpp_generate_messages_lisp
+[1.350s] [ 10%] Built target uuid_msgs_generate_messages_eus
+[1.351s] [ 10%] Built target gazebo_msgs_generate_messages_nodejs
+[1.363s] [ 10%] Built target geographic_msgs_generate_messages_eus
+[1.365s] [ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[1.366s] [ 10%] Built target roscpp_generate_messages_py
+[1.368s] [ 10%] Built target geographic_msgs_generate_messages_cpp
+[1.372s] [ 10%] Built target gazebo_msgs_generate_messages_cpp
+[1.373s] [ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[1.386s] [ 10%] Built target uuid_msgs_generate_messages_py
+[1.389s] [ 10%] Built target gazebo_msgs_generate_messages_py
+[1.390s] [ 10%] Built target roscpp_generate_messages_cpp
+[1.390s] [ 10%] Built target geometry_msgs_generate_messages_py
+[1.393s] [ 10%] Built target geographic_msgs_generate_messages_py
+[1.397s] [ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[1.408s] [ 10%] Built target std_srvs_generate_messages_nodejs
+[1.409s] [ 10%] Built target std_srvs_generate_messages_lisp
+[1.412s] [ 10%] Built target geometry_msgs_generate_messages_cpp
+[1.415s] [ 10%] Built target actionlib_generate_messages_lisp
+[1.416s] [ 10%] Built target std_srvs_generate_messages_cpp
+[1.420s] [ 10%] Built target geographic_msgs_generate_messages_nodejs
+[1.432s] [ 10%] Built target std_srvs_generate_messages_py
+[1.432s] [ 10%] Built target actionlib_generate_messages_nodejs
+[1.432s] [ 10%] Built target tf_generate_messages_cpp
+[1.438s] [ 10%] Built target tf_generate_messages_eus
+[1.439s] [ 10%] Built target tf_generate_messages_lisp
+[1.442s] [ 10%] Built target actionlib_msgs_generate_messages_cpp
+[1.454s] [ 10%] Built target tf_generate_messages_py
+[1.454s] [ 10%] Built target tf_generate_messages_nodejs
+[1.455s] [ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[1.462s] [ 10%] Built target sensor_msgs_generate_messages_cpp
+[1.462s] [ 10%] Built target sensor_msgs_generate_messages_py
+[1.468s] [ 10%] Built target sensor_msgs_generate_messages_eus
+[1.471s] [ 10%] Built target actionlib_generate_messages_eus
+[1.479s] [ 10%] Built target roscpp_generate_messages_eus
+[1.481s] [ 10%] Built target rosgraph_msgs_generate_messages_py
+[1.483s] [ 10%] Built target actionlib_msgs_generate_messages_eus
+[1.485s] [ 10%] Built target actionlib_msgs_generate_messages_lisp
+[1.488s] [ 10%] Built target actionlib_msgs_generate_messages_py
+[1.493s] [ 10%] Built target tf2_msgs_generate_messages_cpp
+[1.497s] [ 10%] Built target tf2_msgs_generate_messages_eus
+[1.498s] [ 10%] Built target actionlib_generate_messages_py
+[1.502s] [ 10%] Built target tf2_msgs_generate_messages_py
+[1.505s] [ 10%] Built target tf2_msgs_generate_messages_nodejs
+[1.506s] [ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[1.510s] [ 10%] Built target dynamic_reconfigure_generate_messages_py
+[1.517s] [ 10%] Built target dynamic_reconfigure_gencfg
+[1.524s] [ 10%] Built target tf2_msgs_generate_messages_lisp
+[1.525s] [ 13%] Built target vrx_gazebo_generate_messages_nodejs
+[1.529s] [ 18%] Built target vrx_gazebo_generate_messages_py
+[1.529s] [ 18%] [34m[1mAutomatic MOC and UIC for target dock_placard_msgs[0m
+[1.534s] [ 21%] Built target vrx_gazebo_generate_messages_lisp
+[1.536s] [ 25%] Built target vrx_gazebo_generate_messages_eus
+[1.545s] [ 28%] Built target dock_base_erb_generation
+[1.550s] [ 30%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/example_course.world[0m
+[1.551s] [ 31%] Built target dock_placard_msgs_autogen
+[1.561s] [ 31%] Built target vrx_gazebo_generate_obstacle_course_buoys
+[1.561s] [ 34%] Built target light_buoy_colors_msgs
+[1.565s] [ 37%] Built target vrx_gazebo_generate_messages_cpp
+[1.565s] [ 38%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/navigation_task.world[0m
+[1.569s] [ 39%] [34m[1mAutomatic MOC and UIC for target waypoint_markers[0m
+[1.569s] [ 40%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/perception_task.world[0m
+[1.570s] [ 40%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/sandisland.world[0m
+[1.581s] [ 40%] [34m[1mAutomatic MOC and UIC for target gui_task_widget[0m
+[1.582s] [ 42%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/dock.world[0m
+[1.584s] [ 42%] Built target waypoint_markers_autogen
+[1.585s] [ 43%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/stationkeeping_task.world[0m
+[1.586s] [ 44%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/scan_and_dock.world[0m
+[1.588s] [ 48%] Built target dock_erb_generation
+[1.597s] [ 48%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/wayfinding_task.world[0m
+[1.598s] [ 48%] Built target gui_task_widget_autogen
+[1.602s] [ 49%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vrx_gazebo/devel/share/vrx_gazebo/worlds/wind_test.world[0m
+[1.605s] [ 50%] [34m[1mAutomatic MOC and UIC for target scoring_plugin[0m
+[1.617s] [ 54%] Built target dock_placard_msgs
+[1.618s] [ 55%] [34m[1mAutomatic MOC and UIC for target light_buoy_plugin[0m
+[1.623s] [ 66%] Built target vrx_gazebo__xacro_auto_generate_to_devel_space_
+[1.626s] [ 69%] Built target waypoint_markers
+[1.627s] [ 69%] Built target scoring_plugin_autogen
+[1.632s] [ 69%] Built target vrx_gazebo_generate_messages
+[1.636s] [ 69%] Built target light_buoy_plugin_autogen
+[1.645s] [ 71%] [34m[1mAutomatic MOC and UIC for target placard_plugin[0m
+[1.652s] [ 71%] Built target vrx_gazebo_xacro_generated_to_devel_space_
+[1.663s] [ 71%] Built target placard_plugin_autogen
+[1.663s] [ 73%] Built target scoring_plugin
+[1.664s] [ 77%] Built target gui_task_widget
+[1.673s] [ 79%] Built target light_buoy_plugin
+[1.682s] [ 79%] [34m[1mAutomatic MOC and UIC for target wayfinding_scoring_plugin[0m
+[1.683s] [ 80%] [34m[1mAutomatic MOC and UIC for target scan_dock_scoring_plugin[0m
+[1.686s] [ 81%] [34m[1mAutomatic MOC and UIC for target stationkeeping_scoring_plugin[0m
+[1.688s] [ 83%] [34m[1mAutomatic MOC and UIC for target navigation_scoring_plugin[0m
+[1.694s] [ 84%] [34m[1mAutomatic MOC and UIC for target perception_scoring_plugin[0m
+[1.701s] [ 84%] Built target scan_dock_scoring_plugin_autogen
+[1.703s] [ 86%] Built target placard_plugin
+[1.703s] [ 86%] Built target stationkeeping_scoring_plugin_autogen
+[1.703s] [ 86%] Built target wayfinding_scoring_plugin_autogen
+[1.708s] [ 86%] Built target navigation_scoring_plugin_autogen
+[1.713s] [ 86%] Built target perception_scoring_plugin_autogen
+[1.740s] [ 91%] Built target scan_dock_scoring_plugin
+[1.740s] [ 91%] Built target stationkeeping_scoring_plugin
+[1.741s] [ 93%] Built target navigation_scoring_plugin
+[1.745s] [ 97%] Built target wayfinding_scoring_plugin
+[1.746s] [100%] Built target perception_scoring_plugin
+[1.769s] [36mInstall the project...[0m
+[1.776s] -- Install configuration: ""
+[1.776s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/msg/Task.msg
+[1.777s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/msg/Contact.msg
+[1.777s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/srv/ColorSequence.srv
+[1.777s] + cd /kanaloa_vorc/src/vrx/vrx_gazebo
+[1.778s] + mkdir -p /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages
+[1.778s] + /usr/bin/env PYTHONPATH=/kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/build/vrx_gazebo/lib/python2.7/dist-packages:/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/kanaloa_vorc/build/vrx_gazebo /usr/bin/python2 /kanaloa_vorc/src/vrx/vrx_gazebo/setup.py build --build-base /kanaloa_vorc/build/vrx_gazebo install --root=/ --install-layout=deb --prefix=/kanaloa_vorc/install/vrx_gazebo --install-scripts=/kanaloa_vorc/install/vrx_gazebo/bin
+[1.805s] running build
+[1.805s] running build_py
+[1.806s] running install
+[1.806s] running install_lib
+[1.806s] running install_egg_info
+[1.807s] Removing /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo-1.3.0.egg-info
+[1.807s] Writing /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo-1.3.0.egg-info
+[1.810s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo-msg-paths.cmake
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/ColorSequenceResponse.h
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/Contact.h
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/ColorSequence.h
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/ColorSequenceRequest.h
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/Task.h
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/srv
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/srv/ColorSequence.l
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/msg
+[1.811s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/msg/Task.l
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/msg/Contact.l
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/roseus/ros/vrx_gazebo/manifest.l
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/srv
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/srv/vrx_gazebo-srv.asd
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/srv/_package_ColorSequence.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/srv/_package.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/srv/ColorSequence.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/_package_Contact.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/vrx_gazebo-msg.asd
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/_package_Task.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/Task.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/_package.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/common-lisp/ros/vrx_gazebo/msg/Contact.lisp
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/_index.js
+[1.812s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/srv
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/srv/_index.js
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/srv/ColorSequence.js
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/msg
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/msg/Contact.js
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/msg/_index.js
+[1.813s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/gennodejs/ros/vrx_gazebo/msg/Task.js
+[1.820s] Listing /kanaloa_vorc/build/vrx_gazebo/devel/lib/python2.7/dist-packages/vrx_gazebo ...
+[1.820s] Listing /kanaloa_vorc/build/vrx_gazebo/devel/lib/python2.7/dist-packages/vrx_gazebo/msg ...
+[1.820s] Listing /kanaloa_vorc/build/vrx_gazebo/devel/lib/python2.7/dist-packages/vrx_gazebo/srv ...
+[1.821s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo
+[1.821s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv
+[1.821s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv/_ColorSequence.py
+[1.821s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv/_ColorSequence.pyc
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/_Task.pyc
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/_Task.py
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/_Contact.pyc
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/_Contact.py
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv/__init__.py
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/srv/__init__.pyc
+[1.822s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/__init__.py
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/python2.7/dist-packages/vrx_gazebo/msg/__init__.pyc
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/pkgconfig/vrx_gazebo.pc
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo-msg-extras.cmake
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig.cmake
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig-version.cmake
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/package.xml
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libwaypoint_markers.so
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/liblight_buoy_plugin.so
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libplacard_plugin.so
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libscoring_plugin.so
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libnavigation_scoring_plugin.so
+[1.823s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libstationkeeping_scoring_plugin.so
+[1.824s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libwayfinding_scoring_plugin.so
+[1.824s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libscan_dock_scoring_plugin.so
+[1.824s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libgui_task_widget.so
+[1.824s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libperception_scoring_plugin.so
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/example_course.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/navigation_task.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/perception_task.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/sandisland.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/dock.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/scan_and_dock.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/stationkeeping_task.world
+[1.825s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/wayfinding_task.world
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/wind_test.world
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/ocean.world
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/example_sensor_config.yaml
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/example_thruster_config.yaml
+[1.826s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance
+[1.827s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance/numeric.yaml
+[1.827s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance/bounding_boxes.yaml
+[1.827s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance
+[1.827s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance/numeric.yaml
+[1.827s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance/bounding_boxes.yaml
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/diffdrive.yaml
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/front_stereo.perspective
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/custom_rosconsole.conf
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/pinger.yaml
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/config/wave_motion_plot.perspective
+[1.828s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception2.world
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception1.world
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock0.world
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge2.world
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding0.world
+[1.829s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge1.world
+[1.830s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge0b.world
+[1.830s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception0.world
+[1.831s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock2.world
+[1.831s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock0.world
+[1.831s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge0.world
+[1.831s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping0.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding1.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping2.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding2.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping1.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock1.world
+[1.832s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock2.world
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock1.world
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/dock.world.xacro
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/ocean.world.xacro
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/sandisland.xacro
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/wayfinding.xacro
+[1.833s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/dock.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/scene.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/stationkeeping.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/usv_wind_plugin.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/scan_and_dock.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/include_all_xacros.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/perception.xacro
+[1.834s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/insert_model.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/nav_challenge.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/sandisland_minus_scene.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/example_course.world.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/sandisland.world.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/scan_and_dock.world.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/wayfinding_task.world.xacro
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2
+[1.835s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception2.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping3.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock3.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception1.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock0.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge2.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding0.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge1.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception5.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock5.world
+[1.836s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock5.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock4.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception0.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock2.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding4.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge3.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock4.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock0.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge0.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception3.world
+[1.837s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping0.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge4.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping4.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding3.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding1.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping2.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding2.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception4.world
+[1.838s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping1.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping5.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock1.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock2.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge5.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock1.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock3.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding5.world
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/wind_test.world.xacro
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/perception_deep.yaml
+[1.839s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/scan_and_dock_deep.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/wayfinding_deep.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/wayfinding_shallow.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/nav_challenge_deep.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/station_keeping_deep.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/nav_challenge_shallow.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/dock_deep.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/dock_shallow.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/perception_shallow.yaml
+[1.840s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/scan_and_dock_shallow.yaml
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/station_keeping_shallow.yaml
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/perception_task.world.xacro
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/no_gravity.world
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/stationkeeping_task.world.xacro
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/worlds/navigation_task.world.xacro
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/green_totem
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/green_totem/model.config
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/green_totem/model.sdf
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent/model.config
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent/model.sdf
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh/tent.dae
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh/tent.png
+[1.841s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.config
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.sdf.erb
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.sdf
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.config
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.sdf.erb
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.sdf
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.config
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.sdf.erb
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.sdf
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/model.config
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/model.sdf
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/meshes
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/meshes/post.dae
+[1.842s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/materials
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/materials/textures
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/post/materials/textures/post.png
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1/model.config
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1/model.sdf
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.config
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.sdf
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.png
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.dae
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.config
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge/model.config
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge/model.sdf
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410
+[1.843s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/model.config
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/model.sdf
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials/scripts
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials/scripts/surmark950410.material
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/mesh
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/mesh/surmark950410.dae
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.config
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.sdf.erb
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.sdf
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic
+[1.844s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.config
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.sdf.erb
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.sdf
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5/model.config
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5/model.sdf
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.config
+[1.845s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.sdf
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.dae
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.png
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem/model.config
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem/model.sdf
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/model.config
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/model.sdf
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/mesh
+[1.846s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/mesh/dock_block_2x2.dae
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/black_totem
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/black_totem/model.config
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/black_totem/model.sdf
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ground_station
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ground_station/model.config
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ground_station/model.sdf
+[1.847s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean
+[1.848s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/model.config
+[1.848s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/model.sdf
+[1.849s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes
+[1.850s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh_below.dae
+[1.850s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh.blend
+[1.850s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh.dae
+[1.850s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials
+[1.850s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL/Waves.vert
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL/Waves.frag
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/scripts
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/scripts/ocean.material
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/normals.dds
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_rt.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_lf.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_dn.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_bk.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_up.jpg
+[1.851s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_fr.jpg
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.config
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.sdf.erb
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.sdf
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/model.config
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/model.sdf
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/mesh
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/mesh/dock_block_4x4.dae
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross/model.config
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross/model.sdf
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle/model.config
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle/model.sdf
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5
+[1.852s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5/model.config
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5/model.sdf
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0/model.config
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0/model.sdf
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.config
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.sdf
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.png
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.dae
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/model.config
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/model.sdf
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/mesh
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/mesh/robotx_light_buoy.dae
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course/model.config
+[1.853s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course/model.sdf
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/model.config
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/heightmap.png
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/model.sdf
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/meshes
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/meshes/sandisland.dae
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials/textures
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials/textures/sandisland.png
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/model.config
+[1.854s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/model.sdf
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/mesh
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/mesh/dock_block_4x4.dae
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna/model.config
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna/model.sdf
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes/antenna.dae
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes/antenna.png
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.config
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.sdf
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.png
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.dae
+[1.855s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task/model.config
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task/model.sdf
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate/model.config
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate/model.sdf
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7/model.config
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7/model.sdf
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/model.config
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/model.sdf
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh/foldable_chair.dae
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh/foldable_chair.png
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles/model.config
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles/model.sdf
+[1.856s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit/model.config
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit/model.sdf
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem/model.config
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem/model.sdf
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/placard
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/placard/model.config
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/placard/model.sdf
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.config
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.sdf.erb
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.sdf
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge/model.config
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge/model.sdf
+[1.857s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit/model.config
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit/model.sdf
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/red_totem
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/red_totem/model.config
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/red_totem/model.sdf
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3/model.config
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3/model.sdf
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/model.config
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/model.sdf
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh/foldable_table.dae
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh/foldable_table.png
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations
+[1.858s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle/model.config
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle/model.sdf
+[1.859s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle/model.config
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle/model.sdf
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross/model.config
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross/model.sdf
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle/model.config
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle/model.sdf
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle/model.config
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle/model.sdf
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross/model.config
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross/model.sdf
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle
+[1.860s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle/model.config
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle/model.sdf
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross/model.config
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross/model.sdf
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross/model.config
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross/model.sdf
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle/model.config
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle/model.sdf
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle/model.config
+[1.861s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle/model.sdf
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross/model.config
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross/model.sdf
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle/model.config
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle/model.sdf
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle
+[1.862s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle/model.config
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle/model.sdf
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross/model.config
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross/model.sdf
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross/model.config
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross/model.sdf
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross/model.config
+[1.863s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross/model.sdf
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle/model.config
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle/model.sdf
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle/model.config
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle/model.sdf
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle/model.config
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle/model.sdf
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross/model.config
+[1.864s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross/model.sdf
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross/model.config
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross/model.sdf
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross/model.config
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross/model.sdf
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle/model.config
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle/model.sdf
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle/model.config
+[1.865s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle/model.sdf
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle/model.config
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle/model.sdf
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross/model.config
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross/model.sdf
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle/model.config
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle/model.sdf
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle/model.config
+[1.866s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle/model.sdf
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle/model.config
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle/model.sdf
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross/model.config
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross/model.sdf
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle/model.config
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle/model.sdf
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle/model.config
+[1.867s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle/model.sdf
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle/model.config
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle/model.sdf
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle/model.config
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle/model.sdf
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle/model.config
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle/model.sdf
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross/model.config
+[1.868s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross/model.sdf
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle/model.config
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle/model.sdf
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross/model.config
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross/model.sdf
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle/model.config
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle/model.sdf
+[1.869s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle/model.config
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle/model.sdf
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross/model.config
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross/model.sdf
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle/model.config
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle/model.sdf
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross/model.config
+[1.870s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross/model.sdf
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle/model.config
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle/model.sdf
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle/model.config
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle/model.sdf
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross/model.config
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross/model.sdf
+[1.871s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle/model.config
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle/model.sdf
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle/model.config
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle/model.sdf
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross/model.config
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross/model.sdf
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle
+[1.872s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle/model.config
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle/model.sdf
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle/model.config
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle/model.sdf
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle/model.config
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle/model.sdf
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle/model.config
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle/model.sdf
+[1.873s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle/model.config
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle/model.sdf
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross/model.config
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross/model.sdf
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross/model.config
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross/model.sdf
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/.empty
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle
+[1.874s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle/model.config
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle/model.sdf
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle/model.config
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle/model.sdf
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross/model.config
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross/model.sdf
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross/model.config
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross/model.sdf
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle/model.config
+[1.875s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle/model.sdf
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross/model.config
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross/model.sdf
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross/model.config
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross/model.sdf
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross/model.config
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross/model.sdf
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle
+[1.876s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle/model.config
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle/model.sdf
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle/model.config
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle/model.sdf
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle/model.config
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle/model.sdf
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle/model.config
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle/model.sdf
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle
+[1.877s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle/model.config
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle/model.sdf
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross/model.config
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross/model.sdf
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle/model.config
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle/model.sdf
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle/model.config
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle/model.sdf
+[1.878s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle/model.config
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle/model.sdf
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle/model.config
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle/model.sdf
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle/model.config
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle/model.sdf
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/model.config
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/model.sdf
+[1.879s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/mesh
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/mesh/triangle.dae
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.config
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.sdf
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.dae
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.png
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post_arm.dae
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3/model.config
+[1.880s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3/model.sdf
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4/model.config
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4/model.sdf
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/model.config
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/model.sdf
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/mesh
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/mesh/dock_block.dae
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.config
+[1.881s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.sdf.erb
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.sdf
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/model.config
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/model.sdf
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/mesh
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/mesh/surmark46104.dae
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/model.config
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/model.sdf
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials/scripts
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials/scripts/surmark950400.material
+[1.882s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/mesh
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/mesh/surmark950400.dae
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/model.config
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/model.sdf
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/mesh
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/mesh/dock_block_3x3.dae
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2/model.config
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2/model.sdf
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch
+[1.883s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/vrx.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/dock.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/sandisland.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/pinger.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/generate_worlds.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/scan_and_dock.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/quat2rpy.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/navigation_task.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/generate_wamv.launch
+[1.884s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/station_keeping.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/playback.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/usv_keydrive.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/perception_task.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/usv_joydrive.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/share/vrx_gazebo/launch/wayfinding.launch
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/stationkeeping_scoring_plugin.hh
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/wayfinding_scoring_plugin.hh
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/perception_scoring_plugin.hh
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/waypoint_markers.hh
+[1.885s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/navigation_scoring_plugin.hh
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/scoring_plugin.hh
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/placard_plugin.hh
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/include/vrx_gazebo/light_buoy_plugin.hh
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/vrx_gazebo/spawn_wamv.bash
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/vrx_gazebo/twist2thrust.py
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/vrx_gazebo/key2thrust_angle.py
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/vrx_gazebo/generate_worlds
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/vrx_gazebo/generate_wamv
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/libdock_placard_msgs.so
+[1.886s] -- Up-to-date: /kanaloa_vorc/install/vrx_gazebo/lib/liblight_buoy_colors_msgs.so
+[1.886s] Invoked command in '/kanaloa_vorc/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/kanaloa_vorc/install/wamv_gazebo:/kanaloa_vorc/install/wave_gazebo:/kanaloa_vorc/install/usv_gazebo_plugins:/kanaloa_vorc/install/wave_gazebo_plugins:/kanaloa_vorc/install/wamv_description:/kanaloa_vorc/install/usv_msgs LD_LIBRARY_PATH=/kanaloa_vorc/install/usv_gazebo_plugins/lib:/kanaloa_vorc/install/wave_gazebo_plugins/lib PKG_CONFIG_PATH=/kanaloa_vorc/install/wamv_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo/lib/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/wamv_description/lib/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/x86_64-linux-gnu/pkgconfig:/kanaloa_vorc/install/usv_msgs/lib/pkgconfig PYTHONPATH=/kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/kanaloa_vorc/install/wamv_gazebo/share:/kanaloa_vorc/install/wave_gazebo/share:/kanaloa_vorc/install/usv_gazebo_plugins/share:/kanaloa_vorc/install/wave_gazebo_plugins/share:/kanaloa_vorc/install/wamv_description/share:/kanaloa_vorc/install/usv_msgs/share /usr/bin/cmake --build /kanaloa_vorc/build/vrx_gazebo --target install -- -j6 -l6

@@ -1,0 +1,323 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX14
+-- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- Using CATKIN_DEVEL_PREFIX: /kanaloa_vorc/build/wave_gazebo_plugins/devel
+-- Using CMAKE_PREFIX_PATH: /vorc_ws/install/vorc_gazebo;/vorc_ws/install/vrx_gazebo;/vorc_ws/install/wave_gazebo;/vorc_ws/install/cora_description;/vorc_ws/install/wamv_gazebo;/vorc_ws/install/usv_gazebo_plugins;/vorc_ws/install/wave_gazebo_plugins;/vorc_ws/install/wamv_description;/vorc_ws/install/usv_msgs;/opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /kanaloa_vorc/build/wave_gazebo_plugins/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.87
+-- Found Simbody: /usr/include/simbody  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+-- Boost version: 1.65.1
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.2.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.31.1
+-- Found UUID: TRUE  
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+-- Checking for module 'gts'
+--   Found gts, version 0.7.6
+-- Found GTS: TRUE  
+-- Checking for module 'libswscale'
+--   Found libswscale, version 4.8.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 57.10.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 57.83.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 57.107.100
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 55.78.100
+-- Found AVUTIL: TRUE  
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.1.7
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.1.2
+-- Found ZIP: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /kanaloa_vorc/build/wave_gazebo_plugins
+[35m[1mScanning dependencies of target Hydrodynamics[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o[0m
+[ 57%] [32m[1mLinking CXX shared library devel/lib/libHydrodynamics.so[0m
+[ 57%] Built target Hydrodynamics
+[35m[1mScanning dependencies of target WavefieldModelPlugin[0m
+[35m[1mScanning dependencies of target WavefieldVisualPlugin[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/src/WavefieldModelPlugin.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/WavefieldVisualPlugin.dir/src/WavefieldVisualPlugin.cc.o[0m
+[ 78%] [32m[1mLinking CXX shared library devel/lib/libWavefieldModelPlugin.so[0m
+[ 78%] Built target WavefieldModelPlugin
+[35m[1mScanning dependencies of target wavegauge_plugin[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/wavegauge_plugin.dir/src/wavegauge_plugin.cc.o[0m
+[ 92%] [32m[1mLinking CXX shared library devel/lib/libWavefieldVisualPlugin.so[0m
+[ 92%] Built target WavefieldVisualPlugin
+[100%] [32m[1mLinking CXX shared library devel/lib/libwavegauge_plugin.so[0m
+[100%] Built target wavegauge_plugin
+[35m[1mScanning dependencies of target gtest[0m
+[  8%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 75%] Built target Hydrodynamics
+[ 83%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 83%] Built target gtest
+[35m[1mScanning dependencies of target UNIT_Wavefield_TEST[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/UNIT_Wavefield_TEST.dir/src/Wavefield_TEST.cc.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/wave_gazebo_plugins/UNIT_Wavefield_TEST[0m
+[100%] Built target UNIT_Wavefield_TEST
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[ 57%] Built target Hydrodynamics
+[ 85%] Built target WavefieldVisualPlugin
+[ 85%] Built target WavefieldModelPlugin
+[100%] Built target wavegauge_plugin
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/lib/pkgconfig/wave_gazebo_plugins.pc
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig.cmake
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig-version.cmake
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.xml
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/lib/libHydrodynamics.so
+-- Set runtime path of "/kanaloa_vorc/install/wave_gazebo_plugins/lib/libHydrodynamics.so" to ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so
+-- Set runtime path of "/kanaloa_vorc/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so" to ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so
+-- Set runtime path of "/kanaloa_vorc/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so" to ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so
+-- Set runtime path of "/kanaloa_vorc/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so" to ""
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldEntity.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Wavefield.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Physics.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Geometry.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/PhysicalConstants.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Utilities.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldModelPlugin.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/wavegauge_plugin.hh
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldVisualPlugin.hh
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo_plugins/include
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+-- Up-to-date: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeTmp
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin_generated
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin_generated/installspace
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin_generated/stamps
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin_generated/stamps/wave_gazebo_plugins
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/share
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/share/wave_gazebo_plugins
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/share/wave_gazebo_plugins/cmake
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/lib
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/lib/pkgconfig
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/devel/lib/wave_gazebo_plugins
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin/catkin_generated
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/catkin/catkin_generated/version
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/roscpp_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/_run_tests_wave_gazebo_plugins.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/_run_tests_wave_gazebo_plugins_gtest.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/run_tests_wave_gazebo_plugins_gtest.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/CMakeTmp
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/clean_test_results_wave_gazebo_plugins.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/run_tests.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/_catkin_empty_exported_target.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/roscpp_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/run_tests_wave_gazebo_plugins.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tests.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/roscpp_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/run_tests_wave_gazebo_plugins_gtest_UNIT_Wavefield_TEST.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/roscpp_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/clean_test_results.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_ros_gencfg.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/UNIT_Wavefield_TEST.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/UNIT_Wavefield_TEST.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/roscpp_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/download_extra_data.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/_run_tests_wave_gazebo_plugins_gtest_UNIT_Wavefield_TEST.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/doxygen.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_msgs_generate_messages_eus.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/actionlib_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.10.2
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.10.2/CompilerIdC
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.10.2/CompilerIdC/tmp
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.10.2/CompilerIdCXX
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.10.2/CompilerIdCXX/tmp
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/test_results
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/atomic_configure
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock.dir/__
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock.dir/__/googletest
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock_main.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock_main.dir/__
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/CMakeFiles/gmock_main.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest/CMakeFiles
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest/CMakeFiles/gtest.dir
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src
+-- Installing: /kanaloa_vorc/install/wave_gazebo_plugins/include/wave_gazebo_plugins/gtest/CMakeFiles

@@ -1,0 +1,128 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /kanaloa_vorc/build/usv_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /vorc_ws/install/vorc_gazebo;/vorc_ws/install/vrx_gazebo;/vorc_ws/install/wave_gazebo;/vorc_ws/install/cora_description;/vorc_ws/install/wamv_gazebo;/vorc_ws/install/usv_gazebo_plugins;/vorc_ws/install/wave_gazebo_plugins;/vorc_ws/install/wamv_description;/vorc_ws/install/usv_msgs;/opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /kanaloa_vorc/build/usv_msgs/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- usv_msgs: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /kanaloa_vorc/build/usv_msgs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _usv_msgs_generate_messages_check_deps_RangeBearing[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _usv_msgs_generate_messages_check_deps_RangeBearing
+[35m[1mScanning dependencies of target usv_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target usv_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target usv_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target usv_msgs_generate_messages_cpp[0m
+[ 14%] [34m[1mGenerating Javascript code from usv_msgs/RangeBearing.msg[0m
+[35m[1mScanning dependencies of target usv_msgs_generate_messages_eus[0m
+[ 28%] [34m[1mGenerating Lisp code from usv_msgs/RangeBearing.msg[0m
+[ 57%] [34m[1mGenerating EusLisp code from usv_msgs/RangeBearing.msg[0m
+[ 57%] [34m[1mGenerating C++ code from usv_msgs/RangeBearing.msg[0m
+[ 71%] [34m[1mGenerating EusLisp manifest code for usv_msgs[0m
+[ 85%] [34m[1mGenerating Python from MSG usv_msgs/RangeBearing[0m
+[ 85%] Built target usv_msgs_generate_messages_lisp
+[ 85%] Built target usv_msgs_generate_messages_nodejs
+[100%] [34m[1mGenerating Python msg __init__.py for usv_msgs[0m
+[100%] Built target usv_msgs_generate_messages_cpp
+[100%] Built target usv_msgs_generate_messages_py
+[100%] Built target usv_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target usv_msgs_generate_messages[0m
+[100%] Built target usv_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _usv_msgs_generate_messages_check_deps_RangeBearing
+[ 14%] Built target usv_msgs_generate_messages_cpp
+[ 28%] Built target usv_msgs_generate_messages_nodejs
+[ 42%] Built target usv_msgs_generate_messages_lisp
+[ 71%] Built target usv_msgs_generate_messages_eus
+[100%] Built target usv_msgs_generate_messages_py
+[100%] Built target usv_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/msg/RangeBearing.msg
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgs-msg-paths.cmake
+-- Installing: /kanaloa_vorc/install/usv_msgs/include/usv_msgs
+-- Installing: /kanaloa_vorc/install/usv_msgs/include/usv_msgs/RangeBearing.h
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/msg
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/msg/RangeBearing.l
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/roseus/ros/usv_msgs/manifest.l
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/RangeBearing.lisp
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/_package_RangeBearing.lisp
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/_package.lisp
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/common-lisp/ros/usv_msgs/msg/usv_msgs-msg.asd
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/_index.js
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg/_index.js
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/gennodejs/ros/usv_msgs/msg/RangeBearing.js
+Listing /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs ...
+Compiling /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs/__init__.py ...
+Listing /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs/msg ...
+Compiling /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs/msg/_RangeBearing.py ...
+Compiling /kanaloa_vorc/build/usv_msgs/devel/lib/python2.7/dist-packages/usv_msgs/msg/__init__.py ...
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/__init__.py
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/__init__.pyc
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/__init__.py
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/_RangeBearing.py
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/__init__.pyc
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/python2.7/dist-packages/usv_msgs/msg/_RangeBearing.pyc
+-- Installing: /kanaloa_vorc/install/usv_msgs/lib/pkgconfig/usv_msgs.pc
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgs-msg-extras.cmake
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig.cmake
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig-version.cmake
+-- Installing: /kanaloa_vorc/install/usv_msgs/share/usv_msgs/package.xml

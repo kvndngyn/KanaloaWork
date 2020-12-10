@@ -1,0 +1,8 @@
+Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake /kanaloa_vorc/src/vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/kanaloa_vorc/install/wave_gazebo_plugins
+Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake /kanaloa_vorc/src/vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/kanaloa_vorc/install/wave_gazebo_plugins
+Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins -- -j6 -l6
+Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins -- -j6 -l6
+Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target tests -- -j6 -l6
+Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target tests -- -j6 -l6
+Invoking command in '/kanaloa_vorc/build/wave_gazebo_plugins': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target install -- -j6 -l6
+Invoked command in '/kanaloa_vorc/build/wave_gazebo_plugins' returned '0': /usr/bin/cmake --build /kanaloa_vorc/build/wave_gazebo_plugins --target install -- -j6 -l6

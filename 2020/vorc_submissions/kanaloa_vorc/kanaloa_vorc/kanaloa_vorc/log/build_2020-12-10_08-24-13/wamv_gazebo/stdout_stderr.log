@@ -1,0 +1,47 @@
+[ 25%] Built target wamv_gazebo__xacro_auto_generate
+[100%] Built target wamv_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wamv_gazebo_xacro_generated_to_devel_space_
+Built target tests
+[ 75%] Built target wamv_gazebo__xacro_auto_generate
+[100%] Built target wamv_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target wamv_gazebo_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/lib/pkgconfig/wamv_gazebo.pc
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/package.xml
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.urdf
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models/gps
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models/gps/model.config
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.png
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.dae
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/macros.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_t_thrusters.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_x_thrusters.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_p3d.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_pinger.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_3d_lidar.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/lidar.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_gps.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_imu.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_camera.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_planar_lidar.xacro
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/config
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/config/rviz_vrx.rviz
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/config/rviz_example.rviz
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/launch
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_example.launch
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/launch/localization_example.launch
+-- Up-to-date: /kanaloa_vorc/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_vrx.launch

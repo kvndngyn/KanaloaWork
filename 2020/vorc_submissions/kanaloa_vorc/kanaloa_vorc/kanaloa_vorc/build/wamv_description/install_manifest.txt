@@ -1,0 +1,16 @@
+/kanaloa_vorc/install/wamv_description/lib/pkgconfig/wamv_description.pc
+/kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+/kanaloa_vorc/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+/kanaloa_vorc/install/wamv_description/share/wamv_description/package.xml
+/kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/model.config
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/model.config
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+/kanaloa_vorc/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+/kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+/kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+/kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+/kanaloa_vorc/install/wamv_description/share/wamv_description/urdf/battery.xacro

@@ -1,0 +1,81 @@
+[  5%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/marina.world[0m
+[ 11%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/perception.world[0m
+[ 16%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/station_keeping.world[0m
+[ 44%] Built target vorc_gazebo__xacro_auto_generate
+[ 55%] Built target gymkhana_scoring_plugin
+[100%] Built target vorc_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target vorc_gazebo_xacro_generated_to_devel_space_
+Built target tests
+[ 16%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/marina.world[0m
+[ 16%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/station_keeping.world[0m
+[ 38%] Built target vorc_gazebo__xacro_auto_generate
+[ 44%] [34m[1mCopying to devel space: /kanaloa_vorc/build/vorc_gazebo/devel/share/vorc_gazebo/worlds/perception.world[0m
+[ 55%] Built target gymkhana_scoring_plugin
+[100%] Built target vorc_gazebo__xacro_auto_generate_to_devel_space_
+[100%] Built target vorc_gazebo_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/lib/pkgconfig/vorc_gazebo.pc
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/cmake/vorc_gazeboConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/cmake/vorc_gazeboConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/package.xml
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/marina.world
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/perception.world
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/station_keeping.world
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/wayfinding.world
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/gymkhana.world
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/station_keeping.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/xacros
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/xacros/gymkhana.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/xacros/marina_minus_scene.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/xacros/include_all_xacros.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/gymkhana.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/wayfinding.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/marina.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/marina.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/worlds/perception.world.xacro
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina/model.config
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina/model.sdf
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina/meshes
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina/meshes/terrain.dae
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/marina/meshes/terrain.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/short_navigation_course0
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/short_navigation_course0/model.config
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/short_navigation_course0/model.sdf
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/model.config
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/model.sdf
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/meshes
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/meshes/Buoy01.dae
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/scripts
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/scripts/model.material
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures/Buoy01_Emissive.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures/Buoy01_Metalness.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures/Buoy01_Albedo.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures/Buoy01_Roughness.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/buoy_red/materials/textures/Buoy01_Normal.png
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/obstacle_course
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/obstacle_course/model.config
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/models/obstacle_course/model.sdf
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/gymkhana.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/perception.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/marina.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/localization_example.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/rviz.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/station_keeping.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/playback.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/usv_keydrive.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/usv_joydrive.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/launch/wayfinding.launch
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/config
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/config/rviz_cora.rviz
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/share/vorc_gazebo/config/pinger.yaml
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/lib/vorc_gazebo/pinger_visualization.py
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/lib/vorc_gazebo/set_pinger_position.py
+-- Up-to-date: /kanaloa_vorc/install/vorc_gazebo/lib/libgymkhana_scoring_plugin.so

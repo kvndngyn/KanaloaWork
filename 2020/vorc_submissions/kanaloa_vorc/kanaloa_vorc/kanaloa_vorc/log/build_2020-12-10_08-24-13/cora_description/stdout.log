@@ -1,0 +1,36 @@
+[ 75%] Built target cora_description__xacro_auto_generate_to_devel_space_
+[100%] Built target cora_description__xacro_auto_generate
+[100%] Built target cora_description_xacro_generated_to_devel_space_
+Built target tests
+[ 50%] Built target cora_description__xacro_auto_generate
+[100%] Built target cora_description__xacro_auto_generate_to_devel_space_
+[100%] Built target cora_description_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /kanaloa_vorc/install/cora_description/lib/pkgconfig/cora_description.pc
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/cmake/cora_descriptionConfig.cmake
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/cmake/cora_descriptionConfig-version.cmake
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/package.xml
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.urdf
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/model.config
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/base_v1.dae
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/propellerR.dae
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/propellerL.dae
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/meshes/base.dae
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/scripts
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/scripts/model.material
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Roughness.png
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Metalness.png
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/models/materials/textures/Boat_Albedo.png
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_dynamics_plugin.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_thruster_config.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.urdf.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/macros.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/thrusters.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora.xacro
+-- Up-to-date: /kanaloa_vorc/install/cora_description/share/cora_description/urdf/cora_v1.urdf.xacro

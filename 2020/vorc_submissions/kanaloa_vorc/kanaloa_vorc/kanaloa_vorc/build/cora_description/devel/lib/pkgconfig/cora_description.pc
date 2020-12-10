@@ -1,0 +1,8 @@
+prefix=/kanaloa_vorc/build/cora_description/devel
+
+Name: cora_description
+Description: Description of cora_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: xacro

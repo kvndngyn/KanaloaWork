@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o  -L/kanaloa_vorc/build/vrx_gazebo/gtest/googlemock/gtest/src -Wl,-rpath,/kanaloa_vorc/build/vrx_gazebo/gtest/googlemock/gtest/src -lpthread 
