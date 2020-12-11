@@ -49,8 +49,8 @@ if __name__ == '__main__':
 
 			# print (q1_q3_thrust)
 
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*speed])
 
 
 		elif 90 < heading < 180:
@@ -61,8 +61,8 @@ if __name__ == '__main__':
 			# print(q1_q3_thrust)
 			# print(q2_q4_thrust)
 
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*-speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*-speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*-speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*-speed])
 
 		elif -180 < heading < -90:
 			q2_q4_thrust = sin(heading_rad)
@@ -71,8 +71,8 @@ if __name__ == '__main__':
 			# print(q1_q3_thrust)
 			# print(q2_q4_thrust)
 
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*-speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*-speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*-speed, q2_q4_thrust*speed, q2_q4_thrust*speed, q1_q3_thrust*-speed])
 
 
 		elif -90 < heading < 0:
@@ -82,8 +82,8 @@ if __name__ == '__main__':
 			# 	q2_q4_thrust = cos(heading_rad)
 			# 	q1_q3_thrust = sin(heading_rad)
 
-			# 	talker(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-			# 		"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*-0.5*speed, q2_q4_thrust*-0.5*speed, q1_q3_thrust*speed])
+			# 	talker(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+			# 		"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*-0.5*speed, q2_q4_thrust*-0.5*speed, q1_q3_thrust*speed])
 
 			# else:
 
@@ -93,25 +93,25 @@ if __name__ == '__main__':
 			# print(q1_q3_thrust)
 			# print(q2_q4_thrust)
 
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*-speed, q2_q4_thrust*-speed, q1_q3_thrust*speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [q1_q3_thrust*speed, q2_q4_thrust*-speed, q2_q4_thrust*-speed, q1_q3_thrust*speed])
 
 
 		elif heading == 0:
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [speed, speed, speed, speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [speed, speed, speed, speed])
 
 		elif heading == 180 or heading == -180:
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [-speed, -speed, -speed, -speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [-speed, -speed, -speed, -speed])
 
 		elif heading == 90:
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [-speed, speed, speed, -speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [-speed, speed, speed, -speed])
 
 		elif heading == -90:
-			drive(["/wamv/thrusters/left_front_thrust_cmd", "/wamv/thrusters/left_rear_thrust_cmd", 
-					"/wamv/thrusters/right_front_thrust_cmd", "/wamv/thrusters/right_rear_thrust_cmd"], [-speed, 0, 0, -speed])
+			drive(["/cora/thrusters/left_thrust_cmd", "/cora/thrusters/left_rear_thrust_cmd", 
+					"/cora/thrusters/right_thrust_cmd", "/cora/thrusters/right_rear_thrust_cmd"], [-speed, 0, 0, -speed])
 
 		else:
 			sys.exit("Bye")

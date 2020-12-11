@@ -93,16 +93,16 @@ class WAMV_Way_Point:
 		self.rate = rospy.Rate(10) # 10hz
 
 	def init_subscribers(self):
-		self.subscribers.append(self.create_subscriber_object("/wamv/sensors/gps/gps/fix", NavSatFix, self.distance_manager))
-		self.subscribers.append(self.create_subscriber_object("/wamv/sensors/imu/imu/data", Imu, self.rotation_manager))
-		# self.subscribers.append(self.create_subscriber_object("/vrx/station_keeping/goal", GeoPoseStamped, self.way_point_response_func))
-		# self.subscribers.append(self.create_subscriber_object("/vrx/wayfinding/waypoints", GeoPath, self.way_point_response_func))
+		self.subscribers.append(self.create_subscriber_object("/cora/sensors/gps/gps/fix", NavSatFix, self.distance_manager))
+		self.subscribers.append(self.create_subscriber_object("/cora/sensors/imu/imu/data", Imu, self.rotation_manager))
+		# self.subscribers.append(self.create_subscriber_object("/vorc/station_keeping/goal", GeoPoseStamped, self.way_point_response_func))
+		# self.subscribers.append(self.create_subscriber_object("/vorc/wayfinding/waypoints", GeoPath, self.way_point_response_func))
 
 	def init_publishers(self):
-		self.publishers.append(self.create_publisher_object("/wamv/thrusters/left_front_thrust_cmd", Float32))
-		self.publishers.append(self.create_publisher_object("/wamv/thrusters/left_rear_thrust_cmd", Float32))
-		self.publishers.append(self.create_publisher_object("/wamv/thrusters/right_front_thrust_cmd", Float32))
-		self.publishers.append(self.create_publisher_object("/wamv/thrusters/right_rear_thrust_cmd", Float32))
+		self.publishers.append(self.create_publisher_object("/cora/thrusters/left_thrust_cmd", Float32))
+		self.publishers.append(self.create_publisher_object("/cora/thrusters/left_rear_thrust_cmd", Float32))
+		self.publishers.append(self.create_publisher_object("/cora/thrusters/right_thrust_cmd", Float32))
+		self.publishers.append(self.create_publisher_object("/cora/thrusters/right_rear_thrust_cmd", Float32))
 
 
 	##################################################
@@ -177,7 +177,7 @@ class WAMV_Way_Point:
 		bearing = degrees(atan2(y,x)) #Measured from East (-180,180) ccw+ cw-
 
 		#bearing: angle cw between North and goal
-		#heading: angle cw bt North and direction wamv is pointing
+		#heading: angle cw bt North and direction cora is pointing
 		theta = -1* heading - bearing #theta is going to be turn angle
 
 		if -360 <= theta <= -180:
@@ -216,10 +216,10 @@ class WAMV_Way_Point:
 
 
 		thrust_values = {}
-		q1 = self.get_publisher_topic("/wamv/thrusters/right_front_thrust_cmd")
-		q2 = self.get_publisher_topic("/wamv/thrusters/left_front_thrust_cmd")
-		q3 = self.get_publisher_topic("/wamv/thrusters/left_rear_thrust_cmd")
-		q4 = self.get_publisher_topic("/wamv/thrusters/right_rear_thrust_cmd")
+		q1 = self.get_publisher_topic("/cora/thrusters/right_front_thrust_cmd")
+		q2 = self.get_publisher_topic("/cora/thrusters/left_front_thrust_cmd")
+		q3 = self.get_publisher_topic("/cora/thrusters/left_rear_thrust_cmd")
+		q4 = self.get_publisher_topic("/cora/thrusters/right_rear_thrust_cmd")
 
 		if self.navigation_indicator == True:
 			# thrust_values["q1"] = 0
