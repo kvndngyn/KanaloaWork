@@ -287,6 +287,9 @@ Team Kanaloa VIP
 + We can conclude that the docker images works and that we can compete. However, since nothing was developed for VORC, whatever little refactoring we were able to do from old VRX code is all we can submit. CoRa's configurations are completely different from what was developed for VRX.
 + Created documentation for `relabelScript.py`
 
+10 December 2020
++ Submission was using old code still subscribed to VRX API, so I updated it for VORC API
++ Pull request for VORC event was approved and commited into their branch
  
 
 
