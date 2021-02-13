@@ -72,7 +72,56 @@ Team Kanaloa VIP
             - Make submission [here](https://docs.google.com/document/d/1lHJmt83f4D3grxKv5nFtuyYp-BHee437vsrmmoXBENU/edit?usp=sharing)
 
 29 January 2021
-- Continued work on GItHub SOP
+- Continued work on GitHub SOP
     - Used this to create examples of issues, project boards, and branching
     - Finished Outline, need details on usage still
     - Added in resources for reference
+
+01 February 2021
+- Continued work on GitHub SOP
+    - Completed Issues SOP
+    - Completed Branches SOP
+    - Compelted Project board SOP
+    - Sent out draft to Dr. Trimble for review
+
+03 February 2021
+- Sensor Fusion Meeting
+    - Team updates
+    - Start working on [Darknet](https://pjreddie.com/darknet/) while waiting for response on GitHub SOP
+        -  [Installation Instructions](https://pjreddie.com/darknet/install/)
+        - Brief overview of what I know is that OpenCV and CUDA are optional dependencies
+            - These are the reason I ran into issues previously
+            - OpenCV allows support for more image types
+            - CUDA makes it run faster
+        - Since most members use a VM, it may be worth trying to see if it is viable without a GPU
+            - My prediction is CUDA causes issues on a VM, might be worth it on for an Ubuntu host system
+
+04 February 2021
+- General Team Meeting
+    - Mission Statement, finalized Meeting SOP
+    - Choose specialization and project
+    - Create mission and objective statement for project
+
+08 February 2021
+- Darknet installed and compiled with no issues
+    - Needs to be tested to verify it works properly and if it'll work with our images and YOLO files
+
+09 February 2021
+- Confirmed Darknet is able to detect images
+    - Startng to find out how to [train Darknet](https://towardsdatascience.com/custom-object-detection-using-darknet-9779170faca2) for our objects
+    - Added images and labels to darknet/data directory
+    - This [script](https://github.com/mukundsharma1995/yolov3-object-detection/blob/master/split_train_test.py) might come in handy to quickly make train.txt
+    - Created a custom yolov3_custom_data.cfg in darknet/data/cfg
+
+11 February 2021
+- General Team Meeting
+    - Still need to decide a lead for GNC
+        - I sent an email out to the GNC subsystem folks
+            - I became GNC lead
+    - We have TIDES at the end of this Spring 2021 semester
+    - WAM-V needs to finalize mission statement
+        - Met WAM-V project team and finalized mission statement
+    - Create objectives statements
+        - Alex S. wants us to create objectives for our subsystems then he will generalize them
+
+        
