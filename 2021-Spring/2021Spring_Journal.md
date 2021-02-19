@@ -118,10 +118,25 @@ Team Kanaloa VIP
     - Still need to decide a lead for GNC
         - I sent an email out to the GNC subsystem folks
             - I became GNC lead
+            - Sent out email with a when2meet so I can try to plan a meeting for everyone
     - We have TIDES at the end of this Spring 2021 semester
     - WAM-V needs to finalize mission statement
         - Met WAM-V project team and finalized mission statement
     - Create objectives statements
         - Alex S. wants us to create objectives for our subsystems then he will generalize them
 
-        
+14 February 2021
+- Scheduled GNC meetings for Mondays at 7:00 PM
+- Created WAM-V GNC ovjective 
+    > The WAM-V GNC system currently lacks an autonomous drive and object classification software. GNC’s objective is to further develop the autonomous drive using a proportional–integral–derivative (PID) controller with a feedforward component and using Darknet (neural network) and You Only Look Once (YOLO) for object classification. The PID controller is in a half-working state using code built up from scratch. The objective for this component is to use the Robot Operating System’s (ROS) package to implement the controller and have a freeforward component so that it can work with it. For object classification, the neural network is partially trained with 200 images and the current documentation does not work on all devices. The neural network needs working documentation to be available for any type of machines (host or virtual) and to be set up on at least one lab computer.
+- Added functional requirements for GNC's neural network
+    - 02-GNC-SD: Documentation recreated w/o CUDA and OpenCV (if possible)
+    - 03-GNC-SD: Darknet installed and configured on at least (1) lab computer
+    - 04-GNC-SD: Implement ROS PID package
+    - 05-GNC-SD: Have freeforward component for the system to work with PID
+
+18 February 2021
+- General Team Meeting
+    - Reviewed mission statements
+    - Went over objective statements
+    - Project function requirements and success criteria
