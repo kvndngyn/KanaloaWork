@@ -140,3 +140,15 @@ Team Kanaloa VIP
     - Reviewed mission statements
     - Went over objective statements
     - Project function requirements and success criteria
+
+21 February 2021
+- Downloaded Raymond's trained weights for Darknet from Fall 2020 Semester
+    - Added it to current darknet folder
+- Currently getting error `Couldn't open file: /home/kevin/darknet/labels/train/93.txt`
+    - `93.txt` is being replaced by a different `.txt` file in the same directory each run
+    - There is no `labels` folder in the directory, so I am not sure where its pulling this path from
+- I found an alternative [Darknet installation from AlexeyAB](https://github.com/AlexeyAB/darknet)
+    - Previously used [pjreddie](https://github.com/pjreddie/darknet)
+    - This one seems to be working at the moment
+- Started Darknet documentation
+    - Need to look into what batch and subdivisions do in `custom_train.cfg` and `custom_test.cfg`
