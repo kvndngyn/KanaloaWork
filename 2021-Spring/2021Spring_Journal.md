@@ -152,3 +152,16 @@ Team Kanaloa VIP
     - This one seems to be working at the moment
 - Started Darknet documentation
     - Need to look into what batch and subdivisions do in `custom_train.cfg` and `custom_test.cfg`
+
+22 February 2021
+- WAMV Meeting
+    - Updating on our the task we've been doing
+    - Tyler H. and I offered help with Ubuntu and ROS set up if they need to use it in the future
+    - Yuuma asking about 3D printing
+        - Referred to grad students to see if they know if Kanaloa has one
+- GNC Meeting
+    - Updates and Action items
+    - Recommended ROS tutorials for new members
+    - Provided new members the links to previous code for station keeping that they can reference
+    - Provided a PowerPoint that was made on the GNC for Sensor Fusion in the previous semester
+- Sent Dr. Trimble a follow up email regarding the GitHub SOP
