@@ -164,4 +164,14 @@ Team Kanaloa VIP
     - Recommended ROS tutorials for new members
     - Provided new members the links to previous code for station keeping that they can reference
     - Provided a PowerPoint that was made on the GNC for Sensor Fusion in the previous semester
-- Sent Dr. Trimble a follow up email regarding the GitHub SOP
+- Sent Dr. Trimble a follow up email regarding the GitHub SOP 
+
+28 February 2021
+- batches / subdivisions = # of images being processed 
+- Batch is the quantity of images being loaded for an iteration
+- Subdivision is the number of 'mini batches' that the batch will be split into
+- Definitions from [this thread](https://github.com/pjreddie/darknet/issues/224#issuecomment-450406093)
+    - Epoch = a pass through the full dataset
+    - Batch training = update the weights after one epoch
+    - Minibatch training = update the weights after a set number of samples have been seen
+- [CFG Parameters in the [net] section](https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-%5Bnet%5D-section)
