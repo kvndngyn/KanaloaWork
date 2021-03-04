@@ -166,6 +166,12 @@ Team Kanaloa VIP
     - Provided a PowerPoint that was made on the GNC for Sensor Fusion in the previous semester
 - Sent Dr. Trimble a follow up email regarding the GitHub SOP 
 
+25 February 2021
+- General Team Meeting
+    - Went over success criterias and functional requirements for all projects
+    - Need to rework functional requirements
+    - [Brainstorming](http://rip.eng.hawaii.edu/wp-content/uploads/2017/09/designExamples_Konh_20170918.pdf) for project design
+
 28 February 2021
 - batches / subdivisions = # of images being processed 
 - Batch is the quantity of images being loaded for an iteration
@@ -175,3 +181,12 @@ Team Kanaloa VIP
     - Batch training = update the weights after one epoch
     - Minibatch training = update the weights after a set number of samples have been seen
 - [CFG Parameters in the [net] section](https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-%5Bnet%5D-section)
+
+01 March 2021
+- GNC Meeting
+    - Updates and action items
+
+03 March 2021
+- Reworked functional requirements
+- Started decision making matrix (DMM) for Darknet
+     - Need a lot of help on this since I am not sure how to implement it in software
