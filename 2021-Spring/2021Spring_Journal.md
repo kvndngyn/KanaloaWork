@@ -190,3 +190,9 @@ Team Kanaloa VIP
 - Reworked functional requirements
 - Started decision making matrix (DMM) for Darknet
      - Need a lot of help on this since I am not sure how to implement it in software
+
+04 March 2021
+- General Team Meeting
+    - Update on action items
+    - Brainstormed ideas will be gone over in project meetings
+    - Decision making process: [Fundamentals of Design (Slide 51)](http://rip.eng.hawaii.edu/wp-content/uploads/2020/10/me481-conceptingModeling-2020f.pdf) and [Design Process](http://rip.eng.hawaii.edu/wp-content/uploads/2018/10/me481_designProcess_20181003.pdf)
