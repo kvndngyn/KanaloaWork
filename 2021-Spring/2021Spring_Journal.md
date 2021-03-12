@@ -196,3 +196,17 @@ Team Kanaloa VIP
     - Update on action items
     - Brainstormed ideas will be gone over in project meetings
     - Decision making process: [Fundamentals of Design (Slide 51)](http://rip.eng.hawaii.edu/wp-content/uploads/2020/10/me481-conceptingModeling-2020f.pdf) and [Design Process](http://rip.eng.hawaii.edu/wp-content/uploads/2018/10/me481_designProcess_20181003.pdf)
+
+08 March 2021
+- Started making a `thruster_config.yaml` for Alex S.
+    - There is a middle thruster for some reason, need to get rid of it
+    - Need to add the two thrusters on the bow
+
+11 March 2021
+- Continued work on Darknet documentation
+    - Added `Extra Notes` section
+    - Added `Usage` section
+- Ran a test with 25 images to see how long it would take to train the network
+    - Stopped after a hour, this is not reliable for training right now
+        - Saw that OpenCV might help with the speed. I had issues in the past but it would be worth to look into it again
+        - Possibly borrow a lab laptop if I need CUDA installed

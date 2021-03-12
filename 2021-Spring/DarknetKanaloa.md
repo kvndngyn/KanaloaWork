@@ -52,7 +52,7 @@ Darknet requires the following files:
 - `darknet/images/train.txt`
 - `darknet/images/test.txt`
 
-##### Classes
+##### 2.2.1 Classes
 The `classes.names` file should include the names of the classes you will be training Darknet to look for. These names should be in the same order as the classes defined in your YOLO files. If your YOLO classes are predefined in this order
 ```
 surmark
@@ -61,7 +61,7 @@ polyform
 ```
 Then your `classes.names` file will be written in the same exact way. 
 
-##### Custom Data
+##### 2.2.2 Custom Data
 `custom_data.data` should include the following information:
 - number of classes
 - path to `train.txt`
@@ -78,8 +78,32 @@ names = /home/kevin/Desktop/darknet/images/classes.names
 backup = backup
 ```
 
-##### Custom Train amd Test
+##### 2.2.3 Custom Train and Test
 These two files are configured slightly different. You can find the full files Kanaloa uses [here](). 
 
-##### Train and Test
+### 3. Usage
+The following shows how to use Darknet to train and test the network.
 
+#### 3.1 Train Network
+
+```
+./darknet detector train cfg/custom_data.data cfg/custom_data.cfg weights/darknet53.conv.74 -dont_show
+```
+
+In this example, weights/darknet53.conv.74 is previously trained weights from a similar network to implement transfer learning.
+
+#### 3.2 Test Network
+
+```
+./darknet detector test cfg/custom_data.data cfg/custom_data.cfg backup/yolov3_kanaloa_oc_train_2000.weights data/image.jpg
+```
+
+### 4. Extra Notes
+- If you are looking to use Darknet for live obect classification through a video feed, you will need to install:
+    - CUDA >= 10.0
+    - OpenCV >= 2.4
+    - cuDNN >= 7.0
+    - GPU with CC >= 3.0
+- AlexeyAB's version of Darknet is compatible with a Windows machine.
+    - Team Kanaloa uses the Linux based version since ROS is being used and live data will be taken from there
+    - For training and testing image labeling, the weights will be the same across both operating systems
