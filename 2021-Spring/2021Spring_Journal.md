@@ -210,3 +210,21 @@ Team Kanaloa VIP
     - Stopped after a hour, this is not reliable for training right now
         - Saw that OpenCV might help with the speed. I had issues in the past but it would be worth to look into it again
         - Possibly borrow a lab laptop if I need CUDA installed
+- General Team Meeting
+    - Update on action items
+    - Went over concept designs for WAM-V
+    - Next steps to take
+    - Kai J suggested to use [this](https://www.hawaii.edu/its/ci/xcat/)
+
+23 March 2021
+- Dr. Trimble responded regarding SOP
+    - For now, we will not utilize project boards since we are currently using Google Sheets for Action Items
+        - Archive what I wrote somewhere and reference it to Google Sheets instead
+        - Possibly get rid of issues since we don't need that since it falls in line with the action items issue
+        - This is because with more place to reference, it becomes annoying and harder to manage
+    - Create template comment blocks with original author, created, modified by, last modified, etc.
+        - This will rid it of the multiversion issue that is currently happening inside the repo
+- Kai J. provided me access to Kanaloa Repo
+    - Need to move all my work over to it
+        - Previous Documentation
+        - Engineering Journals
